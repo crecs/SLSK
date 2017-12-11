@@ -61,8 +61,9 @@ Before downloading or cloning SLSK, please make sure you have the following depe
 
 1. Download the repository, or clone it with `git clone https://github.com/supremesonicbrazil/SLSK`
 2. Open a terminal inside the repo's root directory (or `cd` to it) 
-3. `sudo chmod +x INSTALL.sh && sudo ./INSTALL.sh`
-4. Drag the desktop entry to wherever you like and run it
+3. `chmod +x BUILD.sh INSTALL.sh`
+4. `./BUILD.sh && sudo ./INSTALL.sh`
+5. Drag the desktop entry to wherever you like and run it
 
 ### How to use
 

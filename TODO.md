@@ -2,8 +2,8 @@
 
 * Move paths in database to a text file so it's easier to maintain (and also not obligatory to actually download SLSK just for taking a quick look)
 * Generate the database *during* installation instead of bundling it in the repo (using the text file above)
-* Fix INSTALL.sh according to issue #2
 * $STEAMAPPS path is hardcoded, it shouldn't (issue #3)
+* Use QString on (almost) everything to remove duplicate type conversions to/fromStdString (yeah it's pretty much a mess down there)
 
 ### BUGS
 
