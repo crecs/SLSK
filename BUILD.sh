@@ -18,6 +18,30 @@ cd bin
 make
 cd ..
 
+# Creating database
+clear
+echo "----------[Creating database...]----------"
+sleep 1
+echo 'CREATE TABLE "RegisteredGames" (
+`AppID`TEXT,
+`SteamName`TEXT,
+`GameFolder`TEXT,
+`SavePath1`TEXT,
+`SaveFolder1`TEXT,
+`ConfigPath1`TEXT,
+`ConfigFolder1`TEXT,
+`SavePath2`TEXT,
+`SaveFolder2`TEXT,
+`ConfigPath2`TEXT,
+`ConfigFolder2`TEXT,
+`SavePath3`TEXT,
+`SaveFolder3`TEXT,
+`ConfigPath3`TEXT,
+`ConfigFolder3`TEXT,
+PRIMARY KEY(AppID)
+);' | sqlite3 ./bin/SteamLinuxGames.db
+echo ".import DB.csv RegisteredGames" | sqlite3 -separator '|' ./bin/SteamLinuxGames.db
+
 # Creating desktop entry and setting it as executable
 clear
 echo "----------[Creating desktop entry...]----------"

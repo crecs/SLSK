@@ -75,11 +75,12 @@ suggestions.
 
 ## Improving the database
 
-An SQLite database is included with the program. This is the most important part of the whole project, without it we just have a pretty but
-useless shell made in Qt. You can use CLI tools to tweak the database if you feel more comfortable that way, but using a GUI editor like
-`sqlitebrowser` is also highly recommended.
+An SQLite database is generated during installation. This is the most important part of the whole project, without it we just have a pretty but
+useless shell made in Qt. All the entries to this database are in a .csv file ([DB.csv](DB.csv)), so you can add entries easily and check for paths
+quickly without having to download the whole project.
 
-Each registered Linux Steam game in the database (from now on referred as an "entry") has the following columns:
+Each registered Linux Steam game in the file and consequently in the database (from now on referred as an "entry") has the following columns
+(or "fields") in this exact order:
 
 * **AppID (PRIMARY KEY)** - The game's AppID on Steam (http://store.steampowered.com/app/`AppID-goes-here`)
 * **SteamName** - The game's name as it appears on the Steam store
@@ -97,12 +98,21 @@ Each registered Linux Steam game in the database (from now on referred as an "en
 * **ConfigPath3** - A third (optional) path for the config folder
 * **ConfigFolder3** - A third (optional) config folder
 
-Adding an entry to the database requires a few guidelines which will help both the program on filtering and working in general, and
-whoever wants to take a quick look at the database to know where there is missing information.
+Adding an entry to the file requires a few guidelines which will help both the program on filtering and working in general, and whoever wants
+to take a quick look at the file to know where there is missing information.
 
 ### Guidelines for adding entries
 
-#### 1. **Field labels**
+#### 1. **Entry structures**
+
+When adding an entry to the file, keep in mind the following:
+
+* **One line, one entry**
+* **Separate fields with a single pipeline --> |**
+* **Every field needs to be filled**
+
+Adding Half-Life to the .csv file, as an example:
+70|Half-Life|Half-Life|$STEAMAPPS/Half-Life/valve|valve|$STEAMAPPS/Half-Life/valve|valve|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]
 
 All fields except for AppID, SteamName and GameFolder **must** make use of the following labels when applicable:
 
@@ -111,6 +121,8 @@ All fields except for AppID, SteamName and GameFolder **must** make use of the f
 * **[N/A]** - game naturally doesn't have saves/configs
 * **[CLOUD-ONLY]** - saves/configs only exist in the cloud or in the game's server, out of reach
 * **[UNKNOWN]** - saves/configs are in an unknown location
+
+**NOTE::** there's no need to end the path with a "/", like "$STEAMAPPS/Half-Life/valve/". The GUI tool may actually get confused with this.
 
 So, giving a few examples on when to use each one of these labels:
 
@@ -148,7 +160,7 @@ If the SavePath/ConfigPath ends in:
 Yes, this means duplicates may occur, but that's intentional. Also, *please* use `~` to indicate the user's home folder, people recognize it
 easily and it's shorter than `$HOME`, plus the GUI tool needs it to do some work.
 
-#### 3. [UNKNOWN] paths
+#### 3. **[UNKNOWN] paths**
 
 **NOTE: this is exclusively for paths labeled as [UNKNOWN], it doesn't apply to games with paths labeled as [N/A] or [CLOUD-ONLY].**
 

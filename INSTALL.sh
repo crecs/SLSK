@@ -18,7 +18,7 @@ then
 	rm -r /opt/SLSK
 	mkdir /opt/SLSK
 	mv ./bin/SteamLinuxSwissKnife /opt/SLSK/SteamLinuxSwissKnife
-	cp ./src/SteamLinuxGames.db /opt/SLSK/SteamLinuxGames.db
+	mv ./bin/SteamLinuxGames.db /opt/SLSK/SteamLinuxGames.db
 	cp -r ./img /opt/SLSK/img
 	rm -r ./bin
 			

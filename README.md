@@ -56,6 +56,7 @@ Before downloading or cloning SLSK, please make sure you have the following depe
 
 * `g++` (for C++11)
 * `qt5-default` and `qt5-qmake` (minimum Qt 5.5+)
+* `sqlite3` (for generating the database)
 
 ### Installation
 
