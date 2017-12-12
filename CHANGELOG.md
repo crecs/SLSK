@@ -5,17 +5,17 @@
   - Psychonauts
   - Sanctum 2
   - Brütal Legend
-* 3 games updated in the database:
+* 2 games updated in the database:
   - Absolute Drift (config)
   - Dark Echo (config)
-  - Hero Siege (config)
-* 25 games completed in the database:
+* 26 games completed in the database:
   - Action Henk
   - AdVenture Capitalist
   - Chroma Squad
   - Circa Infinity
   - Dungeon Souls
   - Dungeons 2
+  - Hero Siege
   - Jotun
   - Krautscape
   - LYNE
