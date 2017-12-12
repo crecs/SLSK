@@ -96,7 +96,7 @@ Games</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>620</y>
+       <y>580</y>
        <width>120</width>
        <height>31</height>
       </rect>
@@ -246,7 +246,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>660</y>
+       <y>620</y>
        <width>120</width>
        <height>31</height>
       </rect>
@@ -366,7 +366,7 @@ Saves</string>
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QPushButton" name="ChangeFolderBtn">
+    <widget class="QPushButton" name="ChangeBackupBtn">
      <property name="geometry">
       <rect>
        <x>970</x>
@@ -440,7 +440,7 @@ Configs</string>
        <x>140</x>
        <y>50</y>
        <width>741</width>
-       <height>641</height>
+       <height>601</height>
       </rect>
      </property>
      <property name="font">
@@ -528,7 +528,7 @@ Saves</string>
      <property name="geometry">
       <rect>
        <x>890</x>
-       <y>630</y>
+       <y>590</y>
        <width>121</width>
        <height>61</height>
       </rect>
@@ -553,7 +553,7 @@ Saves</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>540</y>
+       <y>500</y>
        <width>121</width>
        <height>81</height>
       </rect>
@@ -590,7 +590,7 @@ Saves</string>
       <string notr="true">color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
-      <string>SLSK v1.0.0 - Copyright © 2017 Supremist (aka supremesonicbrazil)</string>
+      <string>SLSK v1.0.0 [dev] - Copyright © 2017 Supremist (aka supremesonicbrazil)</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -628,7 +628,7 @@ Saves</string>
      <property name="geometry">
       <rect>
        <x>890</x>
-       <y>580</y>
+       <y>540</y>
        <width>121</width>
        <height>51</height>
       </rect>
@@ -647,6 +647,79 @@ Saves</string>
      <property name="text">
       <string>Total size:
 9999.99 GB</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="SteamLabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>660</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Games folder:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="SteamEntry">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>660</y>
+       <width>821</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(200, 200, 200);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ChangeSteamBtn">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>660</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>...</string>
      </property>
     </widget>
    </widget>

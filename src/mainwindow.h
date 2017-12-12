@@ -45,7 +45,8 @@ class MainWindow : public QMainWindow {
         void on_RestoreScanGameBtn_clicked();
         void on_MarkAllBtn_clicked();
         void on_UnmarkAllBtn_clicked();
-        void on_ChangeFolderBtn_clicked();
+        void on_ChangeSteamBtn_clicked();
+        void on_ChangeBackupBtn_clicked();
         void on_StartBtn_clicked();
         void on_CancelBtn_clicked();
         void on_MenuBtn_clicked();

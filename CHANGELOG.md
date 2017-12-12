@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### 2017-12-xx - Core update [v1.1.0]
+* GUI tool now lets you choose your Steam library folder (for those who are not using ~/.local/share/Steam/steamapps/common)
+* Entries are now stored in a .ods spreadsheet for readability and to exprt to a CSV file for generating the SQLite database
+
 ### 2017-12-11 - Database update
 * 2 games added to the database:
   - HITMAN™

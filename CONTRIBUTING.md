@@ -77,7 +77,8 @@ suggestions.
 
 An SQLite database is generated during installation. This is the most important part of the whole project, without it we just have a pretty but
 useless shell made in Qt. All the entries to this database are in a .csv file ([DB.csv](DB.csv)), so you can add entries easily and check for paths
-quickly without having to download the whole project.
+quickly without having to download the whole project. It is highly recommended you open the spreadsheet file ([DB.ods](DB.ods)) and add or
+edit entries there, then generating the CSV file there (you can do it in LibreOffice Calc for example, which is the one I recommend).
 
 Each registered Linux Steam game in the file and consequently in the database (from now on referred as an "entry") has the following columns
 (or "fields") in this exact order:
@@ -105,7 +106,7 @@ to take a quick look at the file to know where there is missing information.
 
 #### 1. **Entry structures**
 
-When adding an entry to the file, keep in mind the following:
+When adding an entry to the CSV file, keep the following in mind:
 
 * **One line, one entry**
 * **Separate fields with a single pipeline --> |**
@@ -113,6 +114,11 @@ When adding an entry to the file, keep in mind the following:
 
 Adding Half-Life to the .csv file, as an example:
 70|Half-Life|Half-Life|$STEAMAPPS/Half-Life/valve|valve|$STEAMAPPS/Half-Life/valve|valve|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]
+
+If you're adding entries via spreadsheet, just make sure that:
+
+* **The field delimiter is '|', and**
+* **Remove the first line which contains the column names after exporting the CSV file**
 
 All fields except for AppID, SteamName and GameFolder **must** make use of the following labels when applicable:
 

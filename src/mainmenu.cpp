@@ -50,12 +50,15 @@ double TotalSize;   // Double for total size of operation
 //-----------------------------------------------------------------------------------------------------------
 
 /* Enables/Disables buttons on the screen, as in:
-   1) Start Button - User has set a backup folder AND has checked at least ONE item in the list
+   1) Start Button - User has set both Steam and backup folders AND has checked at least ONE item in the list
    2) Mark/Unmark All - Game list has at least ONE valid item
-   3) Restore Scan Buttons - User has set a backup folder AND, for each scanning button, its respective subfolder exists */
+   3) Backup Scan Buttons - User has set a VALID Steam library folder (the program checks if the path leads to the common folder)
+   4) Restore Scan Buttons - User has set a backup folder AND, for each scanning button, its respective subfolder exists */
 void MainMenu::LockUnlock(){
     // Block for 1)
-    if (Window->ui->BackupEntry->text() == "" || !MainMenu::OneItemChecked()){ Window->ui->StartBtn->setDisabled(true); }
+    if (QDir(Window->ui->BackupEntry->text()).exists("SteamSaves") || QDir(Window->ui->BackupEntry->text()).exists("SteamConfigs") ||
+       (QDir(Window->ui->BackupEntry->text()).exists("SteamGames") && QDir(Window->ui->BackupEntry->text()).exists("SteamManifests")) ||
+       !MainMenu::OneItemChecked()){ Window->ui->StartBtn->setDisabled(true); }
     else { Window->ui->StartBtn->setDisabled(false); }
 
     // Block for 2)
@@ -66,6 +69,17 @@ void MainMenu::LockUnlock(){
     }
 
     // Block for 3)
+    if (QDir(Window->ui->SteamEntry->text()).dirName() != "common"){
+        Window->ui->BackupScanSaveBtn->setDisabled(true);
+        Window->ui->BackupScanConfigBtn->setDisabled(true);
+        Window->ui->BackupScanGameBtn->setDisabled(true);
+    } else {
+        Window->ui->BackupScanSaveBtn->setDisabled(false);
+        Window->ui->BackupScanConfigBtn->setDisabled(false);
+        Window->ui->BackupScanGameBtn->setDisabled(false);
+    }
+
+    // Block for 4)
     if (Window->ui->BackupEntry->text() == ""){
         Window->ui->RestoreScanSaveBtn->setDisabled(true);
         Window->ui->RestoreScanConfigBtn->setDisabled(true);

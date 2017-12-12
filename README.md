@@ -68,7 +68,7 @@ Before downloading or cloning SLSK, please make sure you have the following depe
 
 ### How to use
 
-1. Set a backup folder by clicking the `...` button (below the Start button)
+1. Set your Steam library's `common` folder and the backup folder by clicking the `...` buttons (below the Start button)
 2. Scan for content by clicking any of the scan buttons, according to your preference:
   * Backup Saves, Configs or Games (unlocked by default)
   * Restore Saves, Configs or Games (locked by default until a backup folder is set and respective folders are detected in it)
