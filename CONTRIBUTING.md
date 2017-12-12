@@ -117,8 +117,9 @@ Adding Half-Life to the .csv file, as an example:
 
 If you're adding entries via spreadsheet, just make sure that:
 
-* **The field delimiter is '|', and**
+* **The field delimiter is '|', there's no text delimiter**
 * **Remove the first line which contains the column names after exporting the CSV file**
+* **(OPTIONAL) Sort the spreadsheet by alphabetical order before exporting, if you have OCD issues like me then you'll feel way better ;)**
 
 All fields except for AppID, SteamName and GameFolder **must** make use of the following labels when applicable:
 

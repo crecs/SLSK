@@ -1,5 +1,41 @@
 # CHANGELOG
 
+### 2017-12-12 - Database update
+* 3 games added to the database:
+  - Psychonauts
+  - Sanctum 2
+  - Brütal Legend
+* 3 games updated in the database:
+  - Absolute Drift (config)
+  - Dark Echo (config)
+  - Hero Siege (config)
+* 25 games completed in the database:
+  - Action Henk
+  - AdVenture Capitalist
+  - Chroma Squad
+  - Circa Infinity
+  - Dungeon Souls
+  - Dungeons 2
+  - Jotun
+  - Krautscape
+  - LYNE
+  - Magicite
+  - Mushroom 11
+  - Oh...Sir! The Insult Simulator
+  - One More Dungeon
+  - PAC-MAN 256
+  - Paranautical Activity: Deluxe Atonement Edition
+  - Pixel Piracy
+  - Reigns
+  - Robot Roller-Derby Disco Dodgeball
+  - ShellShock Live
+  - SWARMRIDERS
+  - Super Win The Game
+  - Trip to Vinelands
+  - UBERMOSH
+  - UBERMOSH Vol. 3
+  - UBERMOSH: BLACK
+
 ### 2017-12-11 - Core update [v1.1.0]
 * GUI tool now lets you choose your Steam library folder (for those who are not using ~/.local/share/Steam/steamapps/common)
 * Entries are now stored in a .ods spreadsheet for readability and to exprt to a CSV file for generating the SQLite database
