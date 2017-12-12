@@ -40,7 +40,7 @@ sqlite3_stmt *stmt;                                                             
 QString UserFolder = QDir(QDir::homePath() + QString::fromStdString("/.local/share/Steam/userdata")).entryList(                 // Steam userdata folder (w/ user ID)
                      QDir::Dirs | QDir::NoDotAndDotDot).value(0);
 std::string DBPath = "/opt/SLSK/SteamLinuxGames.db";                                                                            // Database raw path
-std::string DB::SteamPath = QDir::homePath().toStdString() + "/.local/share/Steam/steamapps/common";                            // Steamapps raw path
+std::string DB::SteamPath;                                                                                                      // Steamapps raw path
 std::string DB::UserPath = QDir::homePath().toStdString() + "/.local/share/Steam/userdata/" + UserFolder.toStdString();         // Steam userdata raw path
 
 //-----------------------------------------------------------------------------------------------------------

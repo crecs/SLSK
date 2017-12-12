@@ -20,6 +20,7 @@ accompanying COPYING file for more details.
 #include <QObject>
 
 // Program-specific libs
+#include "db.h"
 #include "mainmenu.h"
 #include "progressmenu.h"
 #include "mainwindow.h"
@@ -186,8 +187,16 @@ void MainWindow::on_RestoreScanGameBtn_clicked(){       // Restore Games
 void MainWindow::on_MarkAllBtn_clicked(){ MainMenu::CheckUncheck(true); MainMenu::LockUnlock(); }
 void MainWindow::on_UnmarkAllBtn_clicked(){ MainMenu::CheckUncheck(false); MainMenu::LockUnlock(); }
 
-// For Change Folder button - open a file dialog for choosing a backup folder, locking/unlocking UI buttons accordingly
-void MainWindow::on_ChangeFolderBtn_clicked(){
+// For Change Folder buttons - open a file dialog for choosing a backup folder, locking/unlocking UI buttons accordingly
+// Steam folder
+void MainWindow::on_ChangeSteamBtn_clicked(){
+    QString NewFolder = QFileDialog::getExistingDirectory(this, tr("Open Directory"), QDir::homePath(), QFileDialog::ShowDirsOnly | QFileDialog::DontResolveSymlinks);
+    if (NewFolder != ""){ ui->SteamEntry->setText(NewFolder); DB::SteamPath = NewFolder.toStdString(); }
+    MainMenu::LockUnlock();
+}
+
+// Backup folder
+void MainWindow::on_ChangeBackupBtn_clicked(){
     QString NewFolder = QFileDialog::getExistingDirectory(this, tr("Open Directory"), QDir::homePath(), QFileDialog::ShowDirsOnly | QFileDialog::DontResolveSymlinks);
     if (NewFolder != ""){ ui->BackupEntry->setText(NewFolder); }
     MainMenu::LockUnlock();
