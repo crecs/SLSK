@@ -1,6 +1,5 @@
 ### TASKS
 
-* $STEAMAPPS path is hardcoded, it shouldn't (issue #3)
 * Use QString on (almost) everything to remove duplicate type conversions to/fromStdString (yeah it's pretty much a mess down there)
 
 ### BUGS
