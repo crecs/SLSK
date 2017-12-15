@@ -36,14 +36,14 @@ is no alternative to Linux, and GSM is certainly not going to be ported at all d
 This is why Steam Linux Swiss Knife was made: to provide a way to unify information about save/config paths of Linux Steam games into
 one open, lightweight database which everyone is invited to add this info to it as they see fit; and to use this database for automating
 backups of Linux Steam games, saves and configurations. These goals will be easier to accomplish due to SLSK's open-source nature: new
-releases come every day, and considering it's pretty much inefficient for only one person to buy 2000+ Linux Steam games solely for path
+releases come every day, and considering it's pretty much inefficient for only one person to buy 4000+ Linux Steam games solely for path
 documentation purposes, SLSK provides a solid base for anyone to contribute with this documentation. Plus, although most games follow
 (or at least should follow) the XDG Base Directory Specifications for writing saves/configs (e.g. ~/.local/share, ~/.config, etc.), there is a
 good amount of games ignoring this, writing saves and configs in other specific (and sometimes unknown and/or inadequate) locations
 of the system. Some of them may not even have save files, or configurations may be stored exclusively via cloud. Regardless, it is up to us
 to find that out and contribute so others can be helped.
 
-So far, there are **137** games registered in SLSK's database, of which **9** have incomplete path information.
+From the [**4002**](http://store.steampowered.com/search/?sort_by=Released_DESC&tags=-1&category1=998&os=linux) Linux games on Steam, so far, there are **137** games registered in SLSK's database, of which **9** have incomplete path information.
 
 ### Main features
 
