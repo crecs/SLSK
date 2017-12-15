@@ -62,7 +62,7 @@ gets easier (especially when you manage to reduce parts of the code)
   * Also, try to keep the code *well formatted*. It's OK if it gets kinda big, as long as it's functional and stable enough so it doesn't crash the
 program, we can always reduce it later
   * Still regarding the point above, reduce code as you like but *don't reduce it too much* so it gets unreadable - I know we as programmers
-are always itching to do things like [this](https://en.wikipedia.org/wiki/Minification_(programming\)#Example), but remember that
+are always itching to do things like [this](https://image.slidesharecdn.com/frontendoptimize-111122031131-phpapp02/95/heavy-web-optimization-frontend-11-728.jpg?cb=1357697476), but remember that
 readability counts a lot, so reduce with moderation
 * About the UI:
   * If you feel the UI needs a tweak here and there, let us know first so we can discuss about it (bring your mockups / screenshots as well!)
@@ -194,9 +194,9 @@ they still appear on the Changelog. SLSK uses the standard [Semantic Versioning]
 surprises here. In short, there may be Core updates and Database updates. The former applies to the core program, but *can* also include
 database updates (as seen below), while the latter applies *exclusively* to database changes.
 
-Database entries can be commited directly to master branch, but changes to core program *must* go to a separate dev branch. Fix bugs and
+Pull requests related to updating docs and database entries will be commited directly to the *master* branch. Pull requests regading any change to the GUI tool will be commited to a separate *dev* branch. Fix bugs and
 add features as you may desire, adding tags in commit titles regarding whether you're fixing/adding things in UI, code or docs (respectively,
-**[ui]**, **[code]** and **[docs]**), but test the dev branch to make sure it's stable enough before submitting a pull request, as this will be
+**[ui]**, **[code]** and **[docs]**), but test the dev branch to make sure it's stable enough before submitting a merge request, as this will be
 considered a version increment.
 
 ### Example of changelog entry for database additions only:
