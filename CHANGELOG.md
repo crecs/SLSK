@@ -1,5 +1,43 @@
 # CHANGELOG
 
+### 2017-12-15 - Database update
+* 1 game fixed in the database:
+  - Half-Life (save and config paths had an extra "Half-Life", and "SAVE" was missing from save path)
+* 33 games added to the database:
+  - And Yet It Moves
+  - Aquaria
+  - Cogs
+  - Counter-Strike
+  - Counter-Strike: Condition Zero
+  - Darwinia  
+  - Day of Defeat
+  - Deathmatch Classic
+  - DEFCON
+  - (incomplete) Earth 2160
+  - Empire: Total War™
+  - Empires Mod
+  - (incomplete) Eschalon: Book I
+  - Half-Life: Blue Shift
+  - (incomplete) Half-Life 2: Deathmatch
+  - (incomplete) Half-Life Deathmatch: Source
+  - Half-Life: Opposing Force
+  - Half-Life: Source
+  - (incomplete) Harvest: Massive Encounter
+  - Medieval II: Total War™
+  - Overlord II
+  - Penumbra Overture
+  - Penumbra: Black Plague Gold Edition
+  - Spectraball
+  - Team Fortress Classic
+  - Uplink
+  - Red Orchestra: Ostfront 41-45  
+  - Ricochet
+  - (incomplete) Two Worlds Epic Edition
+  - Warhammer 40,000: Dawn of War II
+  - (incomplete) X-Blades
+  - X3: Reunion
+  - X3: Terran Conflict
+
 ### 2017-12-12 - Database update
 * 3 games added to the database:
   - Psychonauts
