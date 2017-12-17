@@ -1,5 +1,27 @@
 # CHANGELOG
 
+### 2017-12-16 - Database update
+* 19 games added to the database:
+  - (incomplete) AI War: Fleet Command
+  - (incomplete) Altitude
+  - Broken Sword 2 - the Smoking Mirror: Remastered
+  - Day of Defeat: Source
+  - eversion
+  - Gratuitous Space Battles
+  - Hammerfight
+  - Mount & Blade: Warband
+  - (incomplete) Nation Red
+  - (incomplete) Osmos
+  - Overlord™
+  - (incomplete) Secret of the Magic Crystals
+  - Shatter
+  - (incomplete) The Bard's Tale
+  - Tidalis
+  - Toki Tori
+  - Trine Enchanted Edition
+  - Warhammer® 40,000: Dawn of War® II Chaos Rising
+  - Worms Reloaded
+
 ### 2017-12-15 - Database update
 * 1 game fixed in the database:
   - Half-Life (save and config paths had an extra "Half-Life", and "SAVE" was missing from save path)
