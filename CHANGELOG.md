@@ -1,5 +1,28 @@
 # CHANGELOG
 
+### 2017-12-18 - Database update
+* 20 games added to the database:
+  - Anomaly: Warzone Earth
+  - (incomplete) Atom Zombie Smasher
+  - Cities in Motion
+  - Dungeons of Dredmor
+  - Dwarfs!?
+  - EDGE
+  - Fortix 2
+  - Frozen Synapse
+  - HOARD
+  - NightSky
+  - Revenge of the Titans
+  - RUSH
+  - Solar 2
+  - SpaceChem
+  - Steel Storm: Burning Retribution
+  - (incomplete) The Clockwork Man
+  - (incomplete) The Tiny Bang Story
+  - Total War: SHOGUN 2
+  - Warhammer 40,000: Dawn of War II: Retribution
+  - Zen Bound 2
+
 ### 2017-12-16 - Database update
 * 19 games added to the database:
   - (incomplete) AI War: Fleet Command
