@@ -1,5 +1,67 @@
 # CHANGELOG
 
+### 2017-12-19 - Database update
+* 59 games added to the database:
+  - (incomplete) A Valley Without Wind
+  - A Virus Named TOM
+  - AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome
+  - Adventures of Shuggy
+  - Analogue: A Hate Story
+  - Avadon: The Black Fortress
+  - Awesomenauts
+  - Bastion
+  - Blackwell Convergence
+  - Blackwell Unbound
+  - (incomplete) Containment: The Zombie Puzzler
+  - Costume Quest
+  - Crusader Kings II
+  - Cubemen
+  - Deponia
+  - Din's Curse
+  - Dungeon Defenders
+  - Dustforce DX
+  - Dynamite Jack
+  - English Country Tune
+  - Gateways
+  - Gemini Rue
+  - (incomplete) Hacker Evolution Duality
+  - Hero Academy
+  - (incomplete) iBomber Defense Pacific
+  - (incomplete) Jagged Alliance Back in Action
+  - Intrusion 2
+  - Legend of Grimrock
+  - (incomplete) Magical Diary: Horse Hall
+  - Nuclear Dawn
+  - Oil Rush
+  - Rochard
+  - Rocketbirds: Hardboiled Chicken
+  - Serious Sam 3: BFE
+  - Shank 2
+  - Snapshot
+  - Snuggle Truck
+  - Space Pirates and Zombies
+  - Spirits
+  - Splice
+  - Stacking
+  - STAR WARS™ Knights of the Old Republic™ II - The Sith Lords™
+  - Stronghold 3 Gold
+  - Superbrothers: Sword & Sworcery EP
+  - Symphony
+  - Tales From Space: Mutant Blobs Attack
+  - The Blackwell Legacy
+  - The Book of Unwritten Tales
+  - The Witcher 2: Assassins of Kings Enhanced Edition
+  - Ticket to Ride
+  - Tiny and Big: Grandpa's Leftovers
+  - Titan Attacks!
+  - To the Moon
+  - Torchlight II
+  - Total War: Shogun 2 - Fall of the Samurai
+  - Unmechanical
+  - Wargame: European Escalation
+  - Wizorb
+  - XCOM: Enemy Unknown
+
 ### 2017-12-18 - Database update
 * 20 games added to the database:
   - Anomaly: Warzone Earth

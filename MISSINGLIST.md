@@ -1,18 +1,24 @@
 # LIST OF INCOMPLETE GAMES
 
+* A Valley Without Wind (save and config)
 * Absolute Drift (save)
 * Atom Zombie Smasher (config)
 * AI War: Fleet Command (save and config)
 * Altitude (save and config)
+* Containment: The Zombie Puzzler (config)
 * Dark Echo (save)
 * Don't Starve Together (config)
 * Earth 2160 (save and config)
 * Eschalon: Book I (config)
 * GoNNER (save)
+* Hacker Evolution Duality (save)
 * Half-Life 2: Deathmatch (config)
 * Half-Life Deathmatch: Source (config)
 * Harvest: Massive Encounter (save and config)
+* iBomber Defense Pacific (save and config)
 * INK (config)
+* Jagged Alliance Back in Action (config)
+* Magical Diary: Horse Hall (config)
 * Nation Red (save and config)
 * Osmos (config)
 * Retro City Rampage DX (save and config)
@@ -27,18 +33,24 @@
 * You Have To Win The Game (save and config)
 
 # LIST OF NOT-ADDED GAMES
+* Before the Echo (confusion regarding game folder name due to legal issues, plus couldn't find paths, AppID is 200910)
 * Blueberry Garden (couldn't find GameFolder and save, AppID is 29160, config is in ~/.local/share/BlueberryGarden)
+* Darwinia + Soundtrack DLC (bundle)
 * Dawn of War II: Retribution – The Last Stand (got confused whether it's an expansion or a standalone)
+* DEFCON + Soundtrack DLC (bundle)
 * Depths of Peril (couldn't find anything except AppID, which is 23600)
 * Eschalon: Book II (couldn't find anything except AppID, which is 25620)
 * Galcon Fusion (couldn't find anything except AppID, which is 44220)
 * Medieval II: Total War™ Collection (bundle)
 * Medieval II: Total War™ Kingdoms (DLC/expansion)
 * Overlord™: Raising Hell (DLC/expansion)
-* Pirates, Vikings, and Knights II (couldn't sort out GameFolder case sentivitity and couldn't find paths, AppID is 17570)
+* Pirates, Vikings, and Knights II (couldn't sort out GameFolder case sensitivity and couldn't find paths, AppID is 17570)
+* SATAZIUS (couldn't ind anything except AppID, which is 203990)
+* The Book of Unwritten Tales Digital Deluxe Edition (bundle)
+* The Clockwork Man: The Hidden World (got confused whether it's an expansion or a standalone)
 * The Graveyard (couldn't find anything except AppID, which is 27020)
 * The Orange Box (bundle)
-
+* To The Moon Game and Soundtrack Bundle (obvious)
 
 
 
