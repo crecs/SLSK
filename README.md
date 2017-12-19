@@ -22,7 +22,7 @@ configs, centralizing paths in a local and extremely lightweight database.
 
 [Special thanks](#special-thanks)
 
-[Donations](#donations)
+[Support](#support)
 
 [License / Copyright](#license--copyright)
 
@@ -137,7 +137,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 * [/r/linux_gaming](https://www.reddit.com/r/linux_gaming) (for being such an awesome and supportive community)
 
-## Donations
+## Support
 
 Wanna buy me a beer? Donations are welcome:
 
