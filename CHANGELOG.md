@@ -1,5 +1,33 @@
 # CHANGELOG
 
+### 2017-12-20 - Database update
+* 26 games added to the database:
+  - 10,000,000
+  - Baldur's Gate: Enhanced Edition
+  - Cargo Commander
+  - Chaos on Deponia
+  - Chivalry: Medieval Warfare
+  - (incomplete) Conquest of Elysium 3
+  - Defender's Quest: Valley of the Forgotten (DX edition)
+  - Droid Assault
+  - Edna & Harvey: Harvey's New Eyes
+  - Euro Truck Simulator 2
+  - Guns of Icarus Online
+  - (incomplete) iBomber Attack
+  - (incomplete) Iron Sky: Invasion
+  - (incomplete) Jagged Alliance 2 - Wildfire
+  - Mark of the Ninja
+  - Natural Selection 2
+  - Painkiller Hell & Damnation
+  - POSTAL 2
+  - Proteus
+  - Puddle
+  - Strike Suit Zero
+  - Super Hexagon
+  - The Book of Unwritten Tales: The Critter Chronicles
+  - Unity of Command: Stalingrad Campaign
+  - Waking Mars
+
 ### 2017-12-19 - Database update
 * 59 games added to the database:
   - (incomplete) A Valley Without Wind
