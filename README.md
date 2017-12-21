@@ -43,8 +43,8 @@ good amount of games ignoring this, writing saves and configs in other specific 
 of the system. Some of them may not even have save files, or configurations may be stored exclusively via cloud. Regardless, it is up to us
 to find that out and contribute so others can be helped.
 
-From the [**4024**](http://store.steampowered.com/search/?sort_by=Released_DESC&tags=-1&category1=998&os=linux) Linux games displayed
-on Steam, so far, there are **294** games registered in SLSK's database, of which **35** have incomplete path information, and **19** of them
+From the [**4031**](http://store.steampowered.com/search/?sort_by=Released_DESC&tags=-1&category1=998&os=linux) Linux games displayed
+on Steam, so far, there are **359** games registered in SLSK's database, of which **46** have incomplete path information, and **21** of them
 weren't added either on purpose or due to missing information as well (check [MISSINGLIST.md](MISSINGLIST.md) for more information).
 
 ### Main features

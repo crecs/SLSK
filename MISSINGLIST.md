@@ -9,7 +9,9 @@
 * Containment: The Zombie Puzzler (config)
 * Dark Echo (save)
 * Don't Starve Together (config)
+* Dragon's Lair (save and config)
 * Earth 2160 (save and config)
+* Element4l (save and config)
 * Eschalon: Book I (config)
 * GoNNER (save)
 * Hacker Evolution Duality (save)
@@ -22,27 +24,38 @@
 * Iron Sky: Invasion (save and config)
 * Jagged Alliance 2 - Wildfire (save and config)
 * Jagged Alliance Back in Action (config)
+* Joe Danger 2: The Movie (config)
 * Magical Diary: Horse Hall (config)
+* Monster Loves You! (save and config)
 * Nation Red (save and config)
 * Osmos (config)
+* POSTAL (config)
+* Realms of Arkania: Blade of Destiny (save)
 * Retro City Rampage DX (save and config)
 * SCS deORBIT (save and config)
 * Secret of the Magic Crystals (config)
+* Skyward Collapse (save)
+* Space Ace (save and config)
 * Spriter Pro (config)
 * The Bard's Tale (config)
+* The Chaos Engine (save and config)
 * The Clockwork Man (save and config)
 * The Tiny Bang Story (save and config)
 * Two Worlds Epic Edition (save and config)
+* Wargame: Airland Battle (config)
+* Weird Worlds: Return to Infinite Space (save and config)
 * X-Blades (save and config)
 * You Have To Win The Game (save and config)
 
 # LIST OF NOT-ADDED GAMES
+* A Valley Without Wind 2 (couldn't find anything except AppID, which is 228320)
 * Before the Echo (confusion regarding game folder name due to legal issues, plus couldn't find paths, AppID is 200910)
 * Blueberry Garden (couldn't find GameFolder and save, AppID is 29160, config is in ~/.local/share/BlueberryGarden)
 * Darwinia + Soundtrack DLC (bundle)
 * Dawn of War II: Retribution – The Last Stand (got confused whether it's an expansion or a standalone)
 * DEFCON + Soundtrack DLC (bundle)
 * Depths of Peril (couldn't find anything except AppID, which is 23600)
+* DIVO (couldn't find anything except AppID, which is 230760)
 * Eschalon: Book II (couldn't find anything except AppID, which is 25620)
 * Galcon Fusion (couldn't find anything except AppID, which is 44220)
 * Medieval II: Total War™ Collection (bundle)
@@ -56,10 +69,3 @@
 * The Graveyard (couldn't find anything except AppID, which is 27020)
 * The Orange Box (bundle)
 * To The Moon Game and Soundtrack Bundle (obvious)
-
-
-
-
-
-
-

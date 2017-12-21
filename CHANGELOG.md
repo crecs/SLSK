@@ -1,5 +1,73 @@
 # CHANGELOG
 
+### 2017-12-21 - Database update
+* 65 games added to the database:
+  - Anna - Extended Edition
+  - Anomaly 2
+  - Beatbuddy: Tale of the Guardians
+  - BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien
+  - Champions of Regnum
+  - Cities in Motion 2
+  - Company of Heroes 2
+  - Cubemen 2
+  - Dota 2
+  - (incomplete) Dragon's Lair
+  - Dungeon Hearts
+  - Electronic Super Joy
+  - (incomplete) Element4l
+  - Europa Universalis IV
+  - Expeditions: Conquistador
+  - FEZ
+  - Fist Puncher
+  - Game Dev Tycoon
+  - Gone Home
+  - Guacamelee! Gold Edition
+  - Hammerwatch
+  - Hate Plus
+  - Interstellar Marines
+  - Ittle Dew
+  - Jack Lumber
+  - (incomplete) Joe Danger 2: The Movie
+  - Kairo
+  - Kentucky Route Zero
+  - La-Mulana
+  - Leisure Suit Larry in the Land of the Lounge Lizards: Reloaded
+  - MirrorMoon EP
+  - Monaco: What's Yours Is Mine
+  - (incomplete) Monster Loves You!
+  - Organ Trail: Director's Cut
+  - Outlast
+  - Papo & Yo
+  - PixelJunk™ Monsters Ultimate
+  - (incomplete) POSTAL
+  - (incomplete) Realms of Arkania: Blade of Destiny
+  - Receiver
+  - Reus
+  - Shadowrun Returns
+  - Shadow Warrior Classic Redux
+  - Shattered Haven
+  - Skullgirls
+  - Skulls of the Shogun
+  - (incomplete) Skyward Collapse
+  - (incomplete) Space Ace
+  - Space Hulk
+  - Star Conflict
+  - Super Splatters
+  - Surgeon Simulator
+  - Teleglitch: Die More Edition
+  - The 39 Steps
+  - The Bridge
+  - (incomplete) The Chaos Engine
+  - The Raven - Legacy of a Master Thief
+  - Toki Tori 2+
+  - Tomb Raider
+  - Trine 2: Complete Story
+  - Ultratron
+  - (incomplete) Wargame: Airland Battle
+  - War Thunder
+  - (incomplete) Weird Worlds: Return to Infinite Space
+  - Worms Clan Wars
+
 ### 2017-12-20 - Database update
 * 26 games added to the database:
   - 10,000,000
