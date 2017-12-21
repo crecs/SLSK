@@ -1,6 +1,8 @@
-### TASKS
+### TASKS (FOR 1.2.0)
 
 * Use QString on (almost) everything to remove duplicate type conversions to/fromStdString (yeah it's pretty much a mess down there)
+* Make a better UI (not sure how but we'll get there)
+* Clean up if backup process is manually cancelled
 
 ### BUGS
 
@@ -9,8 +11,6 @@
 ### SUGGESTIONS
 
 * Filter list - possible methods:
-  * Using Steam's own library categories (libraryfolders.vdf) - easier, no changing in database, but not sure if it's possible
   * Fixed filters (by size, genre, publisher/developer, year, name, etc.) - would require changing database structure
-* Clean up if backup process is manually cancelled (restore might be way more complicated)
 * Find a way to optionally compress content (which format?)
 * Prep up a CLI version if demand skyrockets
