@@ -1,5 +1,52 @@
 # CHANGELOG
 
+### 2017-12-22 - Database update
+* 44 games added to the database:
+  - Air Conflicts: Vietnam
+  - Amnesia: A Machine for Pigs
+  - Arma Tactics
+  - Bad Hotel
+  - Bionic Dues
+  - (incomplete) Bridge Constructor
+  - Chainsaw Warrior
+  - Cook, Serve, Delicious!
+  - Dark Matter
+  - Democracy 3
+  - Dominions 3: The Awakening
+  - Doorways: Prelude
+  - (incomplete) Dragon's Lair 2: Time Warp
+  - (incomplete) Dysfunctional Systems: Learning to Manage Chaos
+  - Eldritch
+  - Enclave
+  - Escape Goat
+  - FORCED: Slightly Better Edition
+  - Foul Play
+  - Goodbye Deponia
+  - (incomplete) Gorky 17
+  - (incomplete) I Have No Mouth, and I Must Scream
+  - (incomplete) Iesabel
+  - Ironclad Tactics
+  - (incomplete) Jack Orlando: Director's Cut
+  - (incomplete) Knights and Merchants
+  - (incomplete) Knock-knock
+  - Knytt Underground
+  - Legend of Dungeon
+  - (incomplete) Legends of Aethereus
+  - Megabyte Punch
+  - Nihilumbra
+  - No More Room in Hell
+  - (incomplete) Salvation Prophecy
+  - (incomplete) Septerra Core
+  - Solar Flux
+  - (incomplete) Sparkle 2 Evo
+  - (incomplete) Syder Arcade
+  - (incomplete) The 7th Guest
+  - (incomplete) The Inner World
+  - Volgarr the Viking
+  - (incomplete) Wizardry 6: Bane of the Cosmic Forge
+  - (incomplete) Wizardry 7: Crusaders of the Dark Savant
+  - (incomplete) World War II: Panzer Claws
+
 ### 2017-12-21 - Database update
 * 65 games added to the database:
   - Anna - Extended Edition
