@@ -9,6 +9,8 @@ configs, centralizing paths in a local and extremely lightweight database.
 
 [Summary](#summary)
 
+[Statistics](#statistics)
+
 * [Main features](#main-features)
 
 [Getting started](#getting-started)
@@ -43,9 +45,15 @@ good amount of games ignoring this, writing saves and configs in other specific 
 of the system. Some of them may not even have save files, or configurations may be stored exclusively via cloud. Regardless, it is up to us
 to find that out and contribute so others can be helped.
 
-From the [**4031**](http://store.steampowered.com/search/?sort_by=Released_DESC&tags=-1&category1=998&os=linux) Linux games displayed
-on Steam, so far, there are **403** games registered in SLSK's database, of which **65** have incomplete path information, and **22** of them
-weren't added either on purpose or due to missing information as well (check [MISSINGLIST.md](MISSINGLIST.md) for more information).
+## Statistics
+
+- *Total number of Linux games (entries) displayed on Steam so far*: [**4031**](http://store.steampowered.com/search/?sort_by=Released_DESC&tags=-1&category1=998&os=linux)
+- *Total number of registered games*: **468**
+- *Number of registered games that have incomplete path information*: **83**
+- *Number of entries that weren't added due to missing information*: **14**
+- *Number of ignored entries*: **12**
+
+Check [CONTRIBUTING.md](CONTRIBUTING.md) and [MISSINGLIST.md](MISSINGLIST.md) for more information.
 
 ### Main features
 

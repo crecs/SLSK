@@ -62,8 +62,8 @@ gets easier (especially when you manage to reduce parts of the code)
   * Also, try to keep the code *well formatted*. It's OK if it gets kinda big, as long as it's functional and stable enough so it doesn't crash the
 program, we can always reduce it later
   * Still regarding the point above, reduce code as you like but *don't reduce it too much* so it gets unreadable - I know we as programmers
-are always itching to do things like [this](https://image.slidesharecdn.com/frontendoptimize-111122031131-phpapp02/95/heavy-web-optimization-frontend-11-728.jpg?cb=1357697476), but remember that
-readability counts a lot, so reduce with moderation
+are always itching to do things like [this](https://image.slidesharecdn.com/frontendoptimize-111122031131-phpapp02/95/heavy-web-optimization-frontend-11-728.jpg?cb=1357697476),
+but remember that readability counts a lot, so reduce with moderation
 * About the UI:
   * If you feel the UI needs a tweak here and there, let us know first so we can discuss about it (bring your mockups / screenshots as well!)
   * You may tweak the UI in whichever way you want, but please try to make it clean and minimalistic. Remember, *less is more*
@@ -167,24 +167,45 @@ If the SavePath/ConfigPath ends in:
 Yes, this means duplicates may occur, but that's intentional. Also, *please* use `~` to indicate the user's home folder, people recognize it
 easily and it's shorter than `$HOME`, plus the GUI tool needs it to do some work.
 
-#### 3. **[UNKNOWN] paths**
+#### 3. **[UNKNOWN] paths and games with too much missing information**
 
 **NOTE: this is exclusively for paths labeled as [UNKNOWN], it doesn't apply to games with paths labeled as [N/A] or [CLOUD-ONLY].**
 
 If you want to add a game to the database but can't find its save/config paths, or you're not sure where the save/config files are located,
 don't worry - we might find those paths sooner or later, but we need to know that you can't find them. That makes it easier to keep looking
-for information about that game's paths (whether they actually exist or not). We keep a file called MISSINGLIST for games that meet
+for information about that game's paths (whether they actually exist or not). We keep a file called [MISSINGLIST.md](MISSINGLIST.md) for games that meet
 this criteria, kind of like a "wanted list" or "bounty list" if you like catchy names. Here's how to proceed if you end up in this situation:
 
 1. Add the game normally to the database using the **[UNKNOWN]** label in the respective missing fields
-2. Include the game in the CHANGELOG normally, but mark it as "(incomplete)", like this:
+2. Include the game in [CHANGELOG.md](CHANGELOG.md) normally, but mark it as "(incomplete)", like this:
   * (incomplete) GameName
-3. Write the game's name in the MISSINGLIST, specifying which paths are unknown - only save path, only config path, or both - like this:
+3. Write the game's name in MISSINGLIST.md, under the section "**LIST OF INCOMPLETE GAMES**", specifying which paths are unknown - only save path, only config
+   path, or both - like this:
   * GameName (save and config)
 4. Once the paths are found, or if it's proven that there are no paths - **[N/A]** - or that the missing information is **[CLOUD-ONLY]**:
   * update the database accordingly
   * add the game in the CHANGELOG but without the "(incomplete)" before it (more details below in Changelog and Versioning)
-  * remove the game's name from the MISSINGLIST
+  * remove the game's name from MISSINGLIST.md
+
+This should only be considered if you at least have the bare minimum - AppID, SteamName *and* FolderName. If you're missing even *one* of those, *don't* add the
+game to the database. You should only add the game to MISSINGLIST.md under the section "**LIST OF NOT-ADDED GAMES**" instead, stating what is missing and what
+have you found so far.
+
+#### 4. Games that "aren't really games"
+
+Steam is weird in a sense that it also counts DLCs, expansions and bundles as games, so the real game count is not accurate. We're looking to register only full,
+standalone games. If you happen to find an entry in the Steam catalog like that, *don't* add it to the database. Add it only to [MISSINGLIST.md](MISSINGLIST.md)
+instead, under the section "**LIST OF IGNORED ENTRIES**", stating why was it ignored. Both sections "**LIST OF NOT-ADDED GAMES**" and "**LIST OF IGNORED ENTRIES**"
+do not need to be included in the CHANGELOG, so you don't need to state you've put any game in either of those. Just put it and commit away.
+
+*Examples of entries which would enter in this category*:
+
+- DLCs (e.g. the numerous Saints Row ones)
+- Bundles (e.g. game + soundtrack)
+- Expansions (which depend on the base game - e.g. Binding of Isaac Afterbirth and Afterbirth+ - they depend on the base game, Rebirth)
+
+**NOTE: "Expandalones" do NOT apply to this** - e.g. Saints Row Gat Out of Hell, it is its own thing in the sense it doesn't depend on Saints Row IV to run, so
+it should be considered as a separate game.
 
 ## Changelog and Versioning
 
@@ -194,19 +215,24 @@ they still appear on the Changelog. SLSK uses the standard [Semantic Versioning]
 surprises here. In short, there may be Core updates and Database updates. The former applies to the core program, but *can* also include
 database updates (as seen below), while the latter applies *exclusively* to database changes.
 
-Pull requests related to updating docs and database entries will be commited directly to the *master* branch. Pull requests regading any change to the GUI tool will be commited to a separate *dev* branch. Fix bugs and
-add features as you may desire, adding tags in commit titles regarding whether you're fixing/adding things in UI, code or docs (respectively,
-**[ui]**, **[code]** and **[docs]**), but test the dev branch to make sure it's stable enough before submitting a merge request, as this will be
-considered a version increment.
+Pull requests related to updating docs and database entries will be commited directly to the *master* branch. Pull requests regading any change to the GUI tool
+will be commited to a separate *dev* branch, which should be tested and proven stable enough to make sure it's stable enough before submitting a merge request,
+as this will be considered a version increment.
 
 ### Example of changelog entry for database additions only:
 
 #### YYYY-MM-DD - Database update
 * X games added to the database:
-  * this game
-  * that other game
-  * (incomplete) awesome game
-  * ...
+  - this game
+  - that other game
+  - (incomplete) awesome game
+  - ...
+* X games fixed in the database:
+  - superb delicious game (save path had an extra "save")
+  - ...
+* X games completed in the database:
+  - that game i haven't played for ages
+  - ...
 
 ### Example of changelog entry for core program versioning:
 
@@ -214,11 +240,11 @@ considered a version increment.
 * Added this neat feature
 * Fixed those pesky bugs
 * X games added to the database:
-  * not-so-awesome game
-  * ...
+  - not-so-awesome game
+  - ...
 * X games completed in the database
-  * awesome game
-  * ...
+  - awesome game
+  - ...
 
 # Closing words
 

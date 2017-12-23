@@ -1,5 +1,73 @@
 # CHANGELOG
 
+### 2017-12-23 - Database update
+* 65 games added to the database:
+  - 3079 -- Block Action RPG
+  - 3089 -- Futuristic Action RPG
+  - 7 Days to Die
+  - Anomaly Korea
+  - (incomplete) Anomaly Warzone Earth Mobile Campaign
+  - Baldur's Gate II: Enhanced Edition
+  - Ballpoint Universe - Infinite
+  - Battle Worlds: Kronos
+  - Broken Age
+  - Broken Sword 5 - the Serpent's Curse
+  - Continue?9876543210
+  - (incomplete) Dead Sky
+  - Deadfall Adventures
+  - Desktop Dungeons
+  - Dominions 4: Thrones of Ascension
+  - (incomplete) Elder Sign: Omens
+  - Eryi's Action
+  - (incomplete) Fading Hearts
+  - (incomplete) Finding Teddy
+  - (incomplete) Galcon Legends
+  - Gravity Badgers
+  - Hero of the Kingdom
+  - Insurgency
+  - Jets'n'Guns Gold
+  - Journey of a Roach
+  - (incomplete) King Arthur's Gold
+  - Kingdom Rush
+  - Little Racers STREET
+  - Long Live The Queen
+  - Loren The Amazon Princess
+  - Luxuria Superbia
+  - Maia
+  - Montague's Mount
+  - (incomplete) Nightmares from the Deep: The Cursed Heart
+  - Nimble Quest
+  - Not The Robots
+  - Octodad: Dadliest Catch
+  - PixelJunk™ Shooter
+  - (incomplete) Probably Archery
+  - Project Zomboid
+  - Ravensword: Shadowlands
+  - (incomplete) Realms of Arkania 1 - Blade of Destiny Classic
+  - (incomplete) Realms of Arkania 2 - Star Trail Classic
+  - (incomplete) Realms of Arkania 3 - Shadows over Riva Classic
+  - Rust
+  - rymdkapsel
+  - Saturday Morning RPG
+  - Serena
+  - (incomplete) Shufflepuck Cantina Deluxe
+  - Signal Ops
+  - (incomplete) Signs of Life
+  - (incomplete) Small World 2
+  - Steam Bandits: Outpost
+  - Tales of Maj'Eyal
+  - Teslagrad
+  - The Castle Doctrine
+  - The Novelist
+  - The Shivah
+  - (incomplete) Tiny Barbarian DX
+  - Type:Rider
+  - (incomplete) Violett Remastered
+  - Wasteland 1 - The Original Classic
+  - Wooden Sen'SeY
+  - X Rebirth
+  - (incomplete) Zigfrak
+
 ### 2017-12-22 - Database update
 * 44 games added to the database:
   - Air Conflicts: Vietnam
