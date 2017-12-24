@@ -1,5 +1,31 @@
 # CHANGELOG
 
+### 2017-12-24 - Database update
+* Merry Christmas everyone!
+* 22 games added to the database:
+  - (incomplete) 99 Levels To Hell
+  - BeatBlasters III
+  - Card City Nights
+  - (incomplete) Chuck's Challenge 3D
+  - (incomplete) Cube & Star: An Arbitrary Love
+  - Drifter
+  - (incomplete) Drox Operative
+  - Eets Munchies
+  - (incomplete) Eschalon: Book III
+  - GIGANTIC ARMY
+  - (incomplete) Girls Like Robots
+  - (incomplete) Grimind
+  - Hexcells
+  - Hexcells Plus
+  - (incomplete) Journal
+  - (incomplete) Major Mayhem
+  - (incomplete) Reaper - Tale of a Pale Swordsman
+  - (incomplete) The Plan
+  - Tower of Guns
+  - Ultionus: A Tale of Petty Revenge
+  - Vanguard Princess
+  - (incomplete) WazHack
+
 ### 2017-12-23 - Database update
 * 65 games added to the database:
   - 3079 -- Block Action RPG

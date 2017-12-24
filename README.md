@@ -48,8 +48,8 @@ to find that out and contribute so others can be helped.
 ## Statistics
 
 - *Total number of Linux games (entries) displayed on Steam so far*: [**4031**](http://store.steampowered.com/search/?sort_by=Released_DESC&tags=-1&category1=998&os=linux)
-- *Total number of registered games*: **468**
-- *Number of registered games that have incomplete path information*: **83**
+- *Total number of registered games*: **490**
+- *Number of registered games that have incomplete path information*: **95**
 - *Number of entries that weren't added due to missing information*: **14**
 - *Number of ignored entries*: **12**
 
