@@ -1,5 +1,56 @@
 # CHANGELOG
 
+### 2017-12-25 - Database update
+* X games added to the database:
+  - (incomplete) Abyss: The Wraiths of Eden
+  - Age of Wonders III
+  - (incomplete) Always Remember Me
+  - Braveland
+  - (incomplete) Breach & Clear
+  - Circuits
+  - (incomplete) Clockwork Tales: Of Glass and Ink
+  - Creeper World 3: Arc Eternal
+  - (incomplete) Dragons and Titans
+  - Escape Goat 2
+  - (incomplete) Evolution RTS
+  - (incomplete) FaeVerse Alchemy
+  - FarSky
+  - (incomplete) Foosball - Street Edition
+  - (incomplete) Freddi Fish and Luther's Maze Madness
+  - (incomplete) Freddi Fish and The Case of the Missing Kelp Seeds
+  - FootLOL: Epic Fail League
+  - Goat Simulator
+  - (incomplete) Harvester
+  - Heldric - The legend of the shoemaker
+  - (incomplete) Heroes of Steel RPG
+  - Heroine's Quest: The Herald of Ragnarok
+  - (incomplete) Hive
+  - Influent
+  - (incomplete) Jagged Alliance 1: Gold Edition
+  - (incomplete) Ku: Shroud of the Morrigan
+  - Last Dream
+  - Life Goes On: Done to Death
+  - Mercenary Kings
+  - (incomplete) Millie
+  - (incomplete) Moebius: Empire Rising
+  - Pajama Sam: No Need to Hide When It's Dark Outside
+  - (incomplete) Paranormal State: Poison Spring
+  - (incomplete) Putt-Putt® Joins the Parade
+  - Quest of Dungeons
+  - (incomplete) ReignMaker
+  - (incomplete) Rogue's Tale
+  - Science Girls
+  - Secrets of Rætikon
+  - (incomplete) Sentinel
+  - (incomplete) Space Farmers
+  - Spy Fox in Dry Cereal
+  - (incomplete) T.E.C. 3001
+  - (incomplete) The Last Federation
+  - TowerFall Ascension
+  - (incomplete) Vangers
+  - Wargame: Red Dragon
+  - (incomplete) Warlock 2: The Exiled
+
 ### 2017-12-24 - Database update
 * Merry Christmas everyone!
 * 22 games added to the database:
