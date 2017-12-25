@@ -112,7 +112,7 @@ When adding an entry to the CSV file, keep the following in mind:
 * **Separate fields with a single pipeline --> |**
 * **Every field needs to be filled**
 
-Adding Half-Life to the .csv file, as an example:
+Adding Half-Life directly to the .csv file, as an example:
 70|Half-Life|Half-Life|$STEAMAPPS/Half-Life/valve|valve|$STEAMAPPS/Half-Life/valve|valve|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]
 
 If you're adding entries via spreadsheet, just make sure that:
@@ -120,6 +120,9 @@ If you're adding entries via spreadsheet, just make sure that:
 * **The field delimiter is '|', there's no text delimiter**
 * **Remove the first line which contains the column names after exporting the CSV file**
 * **(OPTIONAL) Sort the spreadsheet by alphabetical order before exporting, if you have OCD issues like me then you'll feel way better ;)**
+
+Additionally, if you want to batch add entries (or really just automate it so you don't need to enter each one individually), there's a batch script I wrote in
+Python 3 [right here](db_batchtool) if you wanna use it.
 
 All fields except for AppID, SteamName and GameFolder **must** make use of the following labels when applicable:
 
