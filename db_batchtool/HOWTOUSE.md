@@ -4,7 +4,7 @@ This is a quick 'n' dirty Python3 script I made for a more automated approach to
 Here's how to do it:
 
 1. Create a new text file called `input.txt` in the same folder as the script is (wherever you decided to put it)
-2. Open `TEMPLATE.txt` and copy-paste as much entries as you'd like
+2. Open `TEMPLATE.md` and copy-paste as much entries as you'd like
 3. Add your entries normally, following the template (filling ALL fields as usual)
 4. **Separate entries by a line break** (VERY important)
 5. When you're done, **if there are any entry fields left unused, delete 'em** (also VERY important)
