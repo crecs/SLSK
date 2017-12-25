@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ### 2017-12-25 - Database update
-* X games added to the database:
+* 48 games added to the database:
   - (incomplete) Abyss: The Wraiths of Eden
   - Age of Wonders III
   - (incomplete) Always Remember Me
