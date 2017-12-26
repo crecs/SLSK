@@ -122,7 +122,7 @@ If you're adding entries via spreadsheet, just make sure that:
 * **(OPTIONAL) Sort the spreadsheet by alphabetical order before exporting, if you have OCD issues like me then you'll feel way better ;)**
 
 Additionally, if you want to batch add entries (or really just automate it so you don't need to enter each one individually), there's a batch script I wrote in
-Python 3 [right here](db_batchtool) if you wanna use it.
+Python 3 [right here](db_batch) if you wanna use it.
 
 All fields except for AppID, SteamName and GameFolder **must** make use of the following labels when applicable:
 
