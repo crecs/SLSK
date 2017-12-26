@@ -3,12 +3,18 @@ terms = {					# Dictionary for manipulating entries
 	1: "-AppID: ",
 	2: "-SteamName: ",
 	3: "-GameFolder: ",
-	4: "-Save: ",
-	5: "-Config: ",
-	6: "-Save2: ",
-	7: "-Config2: ",
-	8: "-Save3: ",
-	9: "-Config3: ",
+	4: "-SavePath1: ",
+	5: "-SaveFolder1: ",
+	6: "-ConfigPath1: ",
+	7: "-ConfigFolder1: ",
+	8: "-SavePath2: ",
+	9: "-SaveFolder2: ",
+	10: "-ConfigPath2: ",
+	11: "-ConfigFolder2: ",
+	12: "-SavePath3: ",
+	13: "-SaveFolder3: ",
+	14: "-ConfigPath3: ",
+	15: "-ConfigFolder3: ",
 }
 term_num = 1				# Counter for terms
 incomplete = False			# Boolean for knowing if an entry is incomplete
@@ -33,12 +39,12 @@ with open("input.txt", 'r') as txt_input:								# Open the input file
 				incomplete = True
 			
 			# If the last term was NOT reached yet, write to csv with a field separator "|" and go to next term
-			if term_num != 9:
+			if term_num != 15:
 				db_output.write(line + "|")
 				term_num += 1
 			
 			# If the last term was reached:
-			elif term_num == 9:														
+			elif term_num == 15:														
 				db_output.write(line + "\n")							# Write to csv with a line break
 				if incomplete == True:									# If entry was marked as incomplete, write to log with the (incomplete) label
 					log_output.write("  - (incomplete) " + name + "\n")
