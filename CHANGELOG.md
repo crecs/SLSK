@@ -1,110 +1,189 @@
 # CHANGELOG
 
+### 2017-12-26 - Database update
+* This one was pretty much a downer IMO (curse you Humongous Entertainment!)
+* 64 games added to the database:
+  - (incomplete) Al Emmo and the Lost Dutchman's Mine
+  - (incomplete) Always Sometimes Monsters
+  - (incomplete) Among the Sleep - Enhanced Edition
+  - (incomplete) Antisquad
+  - (incomplete) Ascendant
+  - (incomplete) Enigmatis 2: The Mists of Ravenwood
+  - (incomplete) FLASHOUT 2
+  - (incomplete) Flower Shop: Summer In Fairbrook
+  - (incomplete) Freddi Fish 2: The Case of the Haunted Schoolhouse
+  - (incomplete) Freddi Fish 3: The Case of the Stolen Conch Shell
+  - (incomplete) Freddi Fish 4: The Case of the Hogfish Rustlers of Briny Gulch
+  - (incomplete) Freddi Fish 5: The Case of the Creature of Coral Cove
+  - (incomplete) Freddi Fish and Luther's Water Worries
+  - (incomplete) Frederic: Evil Strikes Back
+  - (incomplete) Frederic: Resurrection of Music
+  - (incomplete) GearCity
+  - (incomplete) GhostControl Inc.
+  - (incomplete) Heileen 1: Sail Away
+  - (incomplete) Lost Marbles
+  - (incomplete) Monochroma
+  - (incomplete) Nightmares from the Deep 2: The Siren's Call
+  - (incomplete) Pajama Sam's Sock Works
+  - (incomplete) Pajama Sam 2: Thunder and Lightning Aren't So Frightening
+  - (incomplete) Pajama Sam 3: You Are What You Eat From Your Head To Your Feet
+  - (incomplete) Pixel Boy and the Ever Expanding Dungeon
+  - (incomplete) Planet Stronghold
+  - (incomplete) Putt-PuttÂ® and Pep's Dog on a Stick
+  - (incomplete) Putt-PuttÂ® Enters the Race
+  - (incomplete) Putt-PuttÂ® Goes to the Moon
+  - (incomplete) Putt-PuttÂ® Joins the Circus
+  - (incomplete) Putt-PuttÂ® Travels Through Time
+  - (incomplete) Rabbit Hole 3D: Steam Edition
+  - (incomplete) Sir, You Are Being Hunted
+  - (incomplete) Spirited Heart Deluxe
+  - (incomplete) Spy Fox 2: Some Assembly Required
+  - (incomplete) Spy Fox In: Cheese Chase
+  - (incomplete) Spy Fox In: Hold the Mustard
+  - (incomplete) Strata
+  - (incomplete) The Impossible Game
+  - (incomplete) The Last Door - Collector's Edition
+  - (incomplete) The Whispered World Special Edition
+  - (incomplete) Toribash
+  - (incomplete) White Noise Online
+  - Anomaly Defenders
+  - Bound By Flame
+  - Chicken Invaders 4
+  - Defense Zone 2
+  - DreadOut
+  - Electronic Super Joy: Groove City
+  - Full Bore
+  - ibb & obb
+  - Lifeless Planet Premier Edition
+  - Meltdown
+  - Noir Syndrome
+  - Pandora: First Contact
+  - Q.U.B.E: Director's Cut
+  - Shiny The Firefly
+  - Splatter - Zombie Apocalypse
+  - Spy Fox 3: Operation Ozone
+  - The Fall
+  - The Last Tinker: City of Colors
+  - Transistor
+  - Tropico 5
+  - World of Guns: Gun Disassembly
+
 ### 2017-12-25 - Database update
 * 48 games added to the database:
   - (incomplete) Abyss: The Wraiths of Eden
-  - Age of Wonders III
   - (incomplete) Always Remember Me
-  - Braveland
   - (incomplete) Breach & Clear
-  - Circuits
   - (incomplete) Clockwork Tales: Of Glass and Ink
-  - Creeper World 3: Arc Eternal
   - (incomplete) Dragons and Titans
-  - Escape Goat 2
   - (incomplete) Evolution RTS
   - (incomplete) FaeVerse Alchemy
-  - FarSky
   - (incomplete) Foosball - Street Edition
   - (incomplete) Freddi Fish and Luther's Maze Madness
   - (incomplete) Freddi Fish and The Case of the Missing Kelp Seeds
-  - FootLOL: Epic Fail League
-  - Goat Simulator
   - (incomplete) Harvester
-  - Heldric - The legend of the shoemaker
   - (incomplete) Heroes of Steel RPG
-  - Heroine's Quest: The Herald of Ragnarok
   - (incomplete) Hive
-  - Influent
   - (incomplete) Jagged Alliance 1: Gold Edition
   - (incomplete) Ku: Shroud of the Morrigan
+  - (incomplete) Millie
+  - (incomplete) Moebius: Empire Rising
+  - (incomplete) Paranormal State: Poison Spring
+  - (incomplete) Putt-PuttÂ® Joins the Parade
+  - (incomplete) ReignMaker
+  - (incomplete) Rogue's Tale
+  - (incomplete) Sentinel
+  - (incomplete) Space Farmers
+  - (incomplete) T.E.C. 3001
+  - (incomplete) The Last Federation
+  - (incomplete) Vangers
+  - (incomplete) Warlock 2: The Exiled
+  - Age of Wonders III
+  - Braveland
+  - Circuits
+  - Creeper World 3: Arc Eternal
+  - Escape Goat 2
+  - FarSky
+  - FootLOL: Epic Fail League
+  - Goat Simulator
+  - Heldric - The legend of the shoemaker
+  - Heroine's Quest: The Herald of Ragnarok
+  - Influent
   - Last Dream
   - Life Goes On: Done to Death
   - Mercenary Kings
-  - (incomplete) Millie
-  - (incomplete) Moebius: Empire Rising
   - Pajama Sam: No Need to Hide When It's Dark Outside
-  - (incomplete) Paranormal State: Poison Spring
-  - (incomplete) Putt-Putt® Joins the Parade
   - Quest of Dungeons
-  - (incomplete) ReignMaker
-  - (incomplete) Rogue's Tale
   - Science Girls
-  - Secrets of Rætikon
-  - (incomplete) Sentinel
-  - (incomplete) Space Farmers
+  - Secrets of RÃ¦tikon
   - Spy Fox in Dry Cereal
-  - (incomplete) T.E.C. 3001
-  - (incomplete) The Last Federation
   - TowerFall Ascension
-  - (incomplete) Vangers
   - Wargame: Red Dragon
-  - (incomplete) Warlock 2: The Exiled
 
 ### 2017-12-24 - Database update
 * Merry Christmas everyone!
 * 22 games added to the database:
   - (incomplete) 99 Levels To Hell
-  - BeatBlasters III
-  - Card City Nights
   - (incomplete) Chuck's Challenge 3D
   - (incomplete) Cube & Star: An Arbitrary Love
-  - Drifter
   - (incomplete) Drox Operative
-  - Eets Munchies
   - (incomplete) Eschalon: Book III
-  - GIGANTIC ARMY
   - (incomplete) Girls Like Robots
   - (incomplete) Grimind
-  - Hexcells
-  - Hexcells Plus
   - (incomplete) Journal
   - (incomplete) Major Mayhem
   - (incomplete) Reaper - Tale of a Pale Swordsman
   - (incomplete) The Plan
+  - (incomplete) WazHack
+  - BeatBlasters III
+  - Card City Nights
+  - Drifter
+  - Eets Munchies
+  - GIGANTIC ARMY
+  - Hexcells
+  - Hexcells Plus
   - Tower of Guns
   - Ultionus: A Tale of Petty Revenge
   - Vanguard Princess
-  - (incomplete) WazHack
 
 ### 2017-12-23 - Database update
 * 65 games added to the database:
+  - (incomplete) Anomaly Warzone Earth Mobile Campaign
+  - (incomplete) Dead Sky
+  - (incomplete) Elder Sign: Omens
+  - (incomplete) Fading Hearts
+  - (incomplete) Finding Teddy
+  - (incomplete) Galcon Legends
+  - (incomplete) King Arthur's Gold
+  - (incomplete) Nightmares from the Deep: The Cursed Heart
+  - (incomplete) Probably Archery
+  - (incomplete) Realms of Arkania 1 - Blade of Destiny Classic
+  - (incomplete) Realms of Arkania 2 - Star Trail Classic
+  - (incomplete) Realms of Arkania 3 - Shadows over Riva Classic
+  - (incomplete) Shufflepuck Cantina Deluxe
+  - (incomplete) Signs of Life
+  - (incomplete) Small World 2
+  - (incomplete) Tiny Barbarian DX
+  - (incomplete) Violett Remastered
+  - (incomplete) Zigfrak
+  - 7 Days to Die
   - 3079 -- Block Action RPG
   - 3089 -- Futuristic Action RPG
-  - 7 Days to Die
   - Anomaly Korea
-  - (incomplete) Anomaly Warzone Earth Mobile Campaign
   - Baldur's Gate II: Enhanced Edition
   - Ballpoint Universe - Infinite
   - Battle Worlds: Kronos
   - Broken Age
   - Broken Sword 5 - the Serpent's Curse
   - Continue?9876543210
-  - (incomplete) Dead Sky
   - Deadfall Adventures
   - Desktop Dungeons
   - Dominions 4: Thrones of Ascension
-  - (incomplete) Elder Sign: Omens
   - Eryi's Action
-  - (incomplete) Fading Hearts
-  - (incomplete) Finding Teddy
-  - (incomplete) Galcon Legends
   - Gravity Badgers
   - Hero of the Kingdom
   - Insurgency
   - Jets'n'Guns Gold
   - Journey of a Roach
-  - (incomplete) King Arthur's Gold
   - Kingdom Rush
   - Little Racers STREET
   - Long Live The Queen
@@ -112,88 +191,88 @@
   - Luxuria Superbia
   - Maia
   - Montague's Mount
-  - (incomplete) Nightmares from the Deep: The Cursed Heart
   - Nimble Quest
   - Not The Robots
   - Octodad: Dadliest Catch
-  - PixelJunk™ Shooter
-  - (incomplete) Probably Archery
+  - PixelJunk Shooter
   - Project Zomboid
   - Ravensword: Shadowlands
-  - (incomplete) Realms of Arkania 1 - Blade of Destiny Classic
-  - (incomplete) Realms of Arkania 2 - Star Trail Classic
-  - (incomplete) Realms of Arkania 3 - Shadows over Riva Classic
   - Rust
   - rymdkapsel
   - Saturday Morning RPG
   - Serena
-  - (incomplete) Shufflepuck Cantina Deluxe
   - Signal Ops
-  - (incomplete) Signs of Life
-  - (incomplete) Small World 2
   - Steam Bandits: Outpost
   - Tales of Maj'Eyal
   - Teslagrad
   - The Castle Doctrine
   - The Novelist
   - The Shivah
-  - (incomplete) Tiny Barbarian DX
   - Type:Rider
-  - (incomplete) Violett Remastered
   - Wasteland 1 - The Original Classic
   - Wooden Sen'SeY
   - X Rebirth
-  - (incomplete) Zigfrak
 
 ### 2017-12-22 - Database update
 * 44 games added to the database:
+  - (incomplete) Bridge Constructor
+  - (incomplete) Dragon's Lair 2: Time Warp
+  - (incomplete) Dysfunctional Systems: Learning to Manage Chaos
+  - (incomplete) Gorky 17
+  - (incomplete) Iesabel
+  - (incomplete) I Have No Mouth, and I Must Scream
+  - (incomplete) Jack Orlando: Director's Cut
+  - (incomplete) Knights and Merchants
+  - (incomplete) Knock-knock
+  - (incomplete) Legends of Aethereus
+  - (incomplete) Salvation Prophecy
+  - (incomplete) Septerra Core
+  - (incomplete) Sparkle 2 Evo
+  - (incomplete) Syder Arcade
+  - (incomplete) The 7th Guest
+  - (incomplete) The Inner World
+  - (incomplete) Wizardry 6: Bane of the Cosmic Forge
+  - (incomplete) Wizardry 7: Crusaders of the Dark Savant
+  - (incomplete) World War II: Panzer Claws
   - Air Conflicts: Vietnam
   - Amnesia: A Machine for Pigs
   - Arma Tactics
   - Bad Hotel
   - Bionic Dues
-  - (incomplete) Bridge Constructor
   - Chainsaw Warrior
   - Cook, Serve, Delicious!
   - Dark Matter
   - Democracy 3
   - Dominions 3: The Awakening
   - Doorways: Prelude
-  - (incomplete) Dragon's Lair 2: Time Warp
-  - (incomplete) Dysfunctional Systems: Learning to Manage Chaos
   - Eldritch
   - Enclave
   - Escape Goat
   - FORCED: Slightly Better Edition
   - Foul Play
   - Goodbye Deponia
-  - (incomplete) Gorky 17
-  - (incomplete) I Have No Mouth, and I Must Scream
-  - (incomplete) Iesabel
   - Ironclad Tactics
-  - (incomplete) Jack Orlando: Director's Cut
-  - (incomplete) Knights and Merchants
-  - (incomplete) Knock-knock
   - Knytt Underground
   - Legend of Dungeon
-  - (incomplete) Legends of Aethereus
   - Megabyte Punch
   - Nihilumbra
   - No More Room in Hell
-  - (incomplete) Salvation Prophecy
-  - (incomplete) Septerra Core
   - Solar Flux
-  - (incomplete) Sparkle 2 Evo
-  - (incomplete) Syder Arcade
-  - (incomplete) The 7th Guest
-  - (incomplete) The Inner World
   - Volgarr the Viking
-  - (incomplete) Wizardry 6: Bane of the Cosmic Forge
-  - (incomplete) Wizardry 7: Crusaders of the Dark Savant
-  - (incomplete) World War II: Panzer Claws
 
 ### 2017-12-21 - Database update
 * 65 games added to the database:
+  - (incomplete) Dragon's Lair
+  - (incomplete) Element4l
+  - (incomplete) Joe Danger 2: The Movie
+  - (incomplete) Monster Loves You!
+  - (incomplete) POSTAL
+  - (incomplete) Realms of Arkania: Blade of Destiny
+  - (incomplete) Skyward Collapse
+  - (incomplete) Space Ace
+  - (incomplete) The Chaos Engine
+  - (incomplete) Wargame: Airland Battle
+  - (incomplete) Weird Worlds: Return to Infinite Space
   - Anna - Extended Edition
   - Anomaly 2
   - Beatbuddy: Tale of the Guardians
@@ -203,10 +282,8 @@
   - Company of Heroes 2
   - Cubemen 2
   - Dota 2
-  - (incomplete) Dragon's Lair
   - Dungeon Hearts
   - Electronic Super Joy
-  - (incomplete) Element4l
   - Europa Universalis IV
   - Expeditions: Conquistador
   - FEZ
@@ -219,20 +296,16 @@
   - Interstellar Marines
   - Ittle Dew
   - Jack Lumber
-  - (incomplete) Joe Danger 2: The Movie
   - Kairo
   - Kentucky Route Zero
   - La-Mulana
   - Leisure Suit Larry in the Land of the Lounge Lizards: Reloaded
   - MirrorMoon EP
   - Monaco: What's Yours Is Mine
-  - (incomplete) Monster Loves You!
   - Organ Trail: Director's Cut
   - Outlast
   - Papo & Yo
-  - PixelJunk™ Monsters Ultimate
-  - (incomplete) POSTAL
-  - (incomplete) Realms of Arkania: Blade of Destiny
+  - PixelJunk Monsters Ultimate
   - Receiver
   - Reus
   - Shadowrun Returns
@@ -240,8 +313,6 @@
   - Shattered Haven
   - Skullgirls
   - Skulls of the Shogun
-  - (incomplete) Skyward Collapse
-  - (incomplete) Space Ace
   - Space Hulk
   - Star Conflict
   - Super Splatters
@@ -249,33 +320,30 @@
   - Teleglitch: Die More Edition
   - The 39 Steps
   - The Bridge
-  - (incomplete) The Chaos Engine
   - The Raven - Legacy of a Master Thief
   - Toki Tori 2+
   - Tomb Raider
   - Trine 2: Complete Story
   - Ultratron
-  - (incomplete) Wargame: Airland Battle
   - War Thunder
-  - (incomplete) Weird Worlds: Return to Infinite Space
   - Worms Clan Wars
 
 ### 2017-12-20 - Database update
 * 26 games added to the database:
+  - (incomplete) Conquest of Elysium 3
+  - (incomplete) iBomber Attack
+  - (incomplete) Iron Sky: Invasion
+  - (incomplete) Jagged Alliance 2 - Wildfire
   - 10,000,000
   - Baldur's Gate: Enhanced Edition
   - Cargo Commander
   - Chaos on Deponia
   - Chivalry: Medieval Warfare
-  - (incomplete) Conquest of Elysium 3
   - Defender's Quest: Valley of the Forgotten (DX edition)
   - Droid Assault
   - Edna & Harvey: Harvey's New Eyes
   - Euro Truck Simulator 2
   - Guns of Icarus Online
-  - (incomplete) iBomber Attack
-  - (incomplete) Iron Sky: Invasion
-  - (incomplete) Jagged Alliance 2 - Wildfire
   - Mark of the Ninja
   - Natural Selection 2
   - Painkiller Hell & Damnation
@@ -291,16 +359,20 @@
 ### 2017-12-19 - Database update
 * 59 games added to the database:
   - (incomplete) A Valley Without Wind
-  - A Virus Named TOM
+  - (incomplete) Containment: The Zombie Puzzler
+  - (incomplete) Hacker Evolution Duality
+  - (incomplete) iBomber Defense Pacific
+  - (incomplete) Jagged Alliance Back in Action
+  - (incomplete) Magical Diary: Horse Hall
   - AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome
   - Adventures of Shuggy
   - Analogue: A Hate Story
   - Avadon: The Black Fortress
+  - A Virus Named TOM
   - Awesomenauts
   - Bastion
   - Blackwell Convergence
   - Blackwell Unbound
-  - (incomplete) Containment: The Zombie Puzzler
   - Costume Quest
   - Crusader Kings II
   - Cubemen
@@ -312,13 +384,9 @@
   - English Country Tune
   - Gateways
   - Gemini Rue
-  - (incomplete) Hacker Evolution Duality
   - Hero Academy
-  - (incomplete) iBomber Defense Pacific
-  - (incomplete) Jagged Alliance Back in Action
   - Intrusion 2
   - Legend of Grimrock
-  - (incomplete) Magical Diary: Horse Hall
   - Nuclear Dawn
   - Oil Rush
   - Rochard
@@ -331,7 +399,7 @@
   - Spirits
   - Splice
   - Stacking
-  - STAR WARS™ Knights of the Old Republic™ II - The Sith Lords™
+  - STAR WARS: Knights of the Old Republic II - The Sith Lords
   - Stronghold 3 Gold
   - Superbrothers: Sword & Sworcery EP
   - Symphony
@@ -342,9 +410,9 @@
   - Ticket to Ride
   - Tiny and Big: Grandpa's Leftovers
   - Titan Attacks!
-  - To the Moon
   - Torchlight II
   - Total War: Shogun 2 - Fall of the Samurai
+  - To the Moon
   - Unmechanical
   - Wargame: European Escalation
   - Wizorb
@@ -352,8 +420,10 @@
 
 ### 2017-12-18 - Database update
 * 20 games added to the database:
-  - Anomaly: Warzone Earth
   - (incomplete) Atom Zombie Smasher
+  - (incomplete) The Clockwork Man
+  - (incomplete) The Tiny Bang Story
+  - Anomaly: Warzone Earth
   - Cities in Motion
   - Dungeons of Dredmor
   - Dwarfs!?
@@ -367,8 +437,6 @@
   - Solar 2
   - SpaceChem
   - Steel Storm: Burning Retribution
-  - (incomplete) The Clockwork Man
-  - (incomplete) The Tiny Bang Story
   - Total War: SHOGUN 2
   - Warhammer 40,000: Dawn of War II: Retribution
   - Zen Bound 2
@@ -377,28 +445,35 @@
 * 19 games added to the database:
   - (incomplete) AI War: Fleet Command
   - (incomplete) Altitude
+  - (incomplete) Nation Red
+  - (incomplete) Osmos
+  - (incomplete) Secret of the Magic Crystals
+  - (incomplete) The Bard's Tale
   - Broken Sword 2 - the Smoking Mirror: Remastered
   - Day of Defeat: Source
   - eversion
   - Gratuitous Space Battles
   - Hammerfight
   - Mount & Blade: Warband
-  - (incomplete) Nation Red
-  - (incomplete) Osmos
-  - Overlord™
-  - (incomplete) Secret of the Magic Crystals
+  - Overlord
   - Shatter
-  - (incomplete) The Bard's Tale
   - Tidalis
   - Toki Tori
   - Trine Enchanted Edition
-  - Warhammer® 40,000: Dawn of War® II Chaos Rising
+  - Warhammer 40,000: Dawn of WarÂ® II Chaos Rising
   - Worms Reloaded
 
 ### 2017-12-15 - Database update
 * 1 game fixed in the database:
   - Half-Life (save and config paths had an extra "Half-Life", and "SAVE" was missing from save path)
 * 33 games added to the database:
+  - (incomplete) Earth 2160
+  - (incomplete) Eschalon: Book I
+  - (incomplete) Half-Life 2: Deathmatch
+  - (incomplete) Half-Life Deathmatch: Source
+  - (incomplete) Harvest: Massive Encounter
+  - (incomplete) Two Worlds Epic Edition
+  - (incomplete) X-Blades
   - And Yet It Moves
   - Aquaria
   - Cogs
@@ -408,28 +483,21 @@
   - Day of Defeat
   - Deathmatch Classic
   - DEFCON
-  - (incomplete) Earth 2160
-  - Empire: Total War™
+  - Empire: Total War
   - Empires Mod
-  - (incomplete) Eschalon: Book I
   - Half-Life: Blue Shift
-  - (incomplete) Half-Life 2: Deathmatch
-  - (incomplete) Half-Life Deathmatch: Source
   - Half-Life: Opposing Force
   - Half-Life: Source
-  - (incomplete) Harvest: Massive Encounter
-  - Medieval II: Total War™
+  - Medieval II: Total War
   - Overlord II
-  - Penumbra Overture
   - Penumbra: Black Plague Gold Edition
+  - Penumbra Overture
+  - Red Orchestra: Ostfront 41-45  
+  - Ricochet
   - Spectraball
   - Team Fortress Classic
   - Uplink
-  - Red Orchestra: Ostfront 41-45  
-  - Ricochet
-  - (incomplete) Two Worlds Epic Edition
   - Warhammer 40,000: Dawn of War II
-  - (incomplete) X-Blades
   - X3: Reunion
   - X3: Terran Conflict
 
@@ -474,21 +542,55 @@
 * Entries are now stored in a .ods spreadsheet for readability and to exprt to a CSV file for generating the SQLite database
 
 ### 2017-12-11 - Database update
-* 2 games added to the database:
+* 1 game added to the database:
   - HITMAN™
+* 1 game completed in the database:
   - Super Crate Box
 
 ### 2017-12-10 - Initial release [v1.0.0]
 * 133 games added to the database:
-  - 1001 Spikes
-  - 140
-  - A Story About My Uncle
   - (incomplete) Absolute Drift
   - (incomplete) Action Henk
   - (incomplete) AdVenture Capitalist
+  - (incomplete) Chroma Squad
+  - (incomplete) Circa Infinity
+  - (incomplete) Dark Echo
+  - (incomplete) Don't Starve Together
+  - (incomplete) Dungeons 2
+  - (incomplete) Dungeon Souls
+  - (incomplete) GoNNER
+  - (incomplete) Hero Siege
+  - (incomplete) INK
+  - (incomplete) Jotun
+  - (incomplete) Krautscape
+  - (incomplete) LYNE
+  - (incomplete) Magicite
+  - (incomplete) Mushroom 11
+  - (incomplete) Oh...Sir! The Insult Simulator
+  - (incomplete) One More Dungeon
+  - (incomplete) PACMAN-256
+  - (incomplete) Paranautical Activity: Deluxe Atonement Edition
+  - (incomplete) Pixel Piracy
+  - (incomplete) Reigns
+  - (incomplete) Retro City Rampage DX
+  - (incomplete) Robot Roller-Derby Disco Dodgeball
+  - (incomplete) SCS deORBIT
+  - (incomplete) ShellShock Live
+  - (incomplete) Spriter Pro
+  - (incomplete) Super Crate Box
+  - (incomplete) Super Win The Game
+  - (incomplete) SWARMRIDERS
+  - (incomplete) Trip to Vinelands
+  - (incomplete) UBERMOSH
+  - (incomplete) UBERMOSH: BLACK
+  - (incomplete) UBERMOSH Vol. 3
+  - (incomplete) You Have To Win The Game
+  - 140
+  - 1001 Spikes
   - Amnesia: The Dark Descent
   - Another World - 20th Edition Anniversary
   - Antichamber
+  - A Story About My Uncle
   - Audiosurf 2
   - BattleBlock Theater
   - Beat Hazard
@@ -499,29 +601,22 @@
   - Braid
   - Capsized
   - Cave Story+
-  - (incomplete) Chroma Squad
-  - (incomplete) Circa Infinity
   - Closure
   - Counter-Strike: Global Offensive
   - Counter-Strike: Source
   - Crypt of the NecroDancer
-  - (incomplete) Dark Echo
   - DeadCore
   - Devil Daggers
   - DiRT Showdown
   - Distance
   - Don't Starve
-  - (incomplete) Don't Starve Together
   - Drunken Robot Pornography
-  - (incomplete) Dungeon Souls
-  - (incomplete) Dungeons 2
   - Dust: An Elysian Tail
-  - FTL: Faster Than Light
   - Fistful of Frags
   - Floating Point
   - Freedom Planet
+  - FTL: Faster Than Light
   - Garry's Mod
-  - (incomplete) GoNNER
   - Grow Home
   - Gunpoint
   - Half-Life
@@ -530,67 +625,46 @@
   - Half-Life 2: Episode Two
   - Half-Life 2: Lost Coast
   - Heavy Bullets
-  - (incomplete) Hero Siege
   - Hotline Miami
   - Hotline Miami 2: Wrong Number
   - Human Resource Machine
-  - (incomplete) INK
   - Indie Game: The Movie
   - Insanely Twisted Shadow Planet
   - Jazzpunk: Director's Cut
-  - (incomplete) Jotun
   - Killing Floor
   - Knights of Pen and Paper +1
-  - (incomplete) Krautscape
-  - LIMBO
-  - LUFTRAUSERS
-  - (incomplete) LYNE
   - Left 4 Dead 2
+  - LIMBO
   - Little Inferno
-  - (incomplete) Magicite
-  - (incomplete) Mushroom 11
+  - LUFTRAUSERS
   - NOT A HERO
   - No Time To Explain Remastered
   - Oddworld: New 'n' Tasty
-  - (incomplete) Oh...Sir! The Insult Simulator
-  - (incomplete) One More Dungeon
   - Orbital Gear
   - Outland
-  - (incomplete) PACMAN-256
-  - PAYDAY 2
   - Papers, Please
-  - (incomplete) Paranautical Activity: Deluxe Atonement Edition
-  - (incomplete) Pixel Piracy
+  - PAYDAY 2
   - Plague Inc: Evolved
   - Please, Don't Touch Anything
   - Pony Island
   - Portal
   - Portal 2
   - Race The Sun
-  - (incomplete) Reigns
-  - (incomplete) Retro City Rampage DX
   - Rex Rocket
   - Risk of Rain
-  - (incomplete) Robot Roller-Derby Disco Dodgeball
   - Rogue Legacy
-  - (incomplete) SCS deORBIT
-  - (incomplete) SWARMRIDERS
   - Saints Row 2
-  - Saints Row IV
   - Saints Row: Gat out of Hell
   - Saints Row: The Third
+  - Saints Row IV
   - Savant - Ascent
   - Shadow Warrior
   - Shank
-  - (incomplete) ShellShock Live
   - Skyborn
-  - (incomplete) Spriter Pro
   - Starbound
   - Stealth Bastard Deluxe
   - SteamWorld Dig
-  - (incomplete) Super Crate Box
   - Super Meat Boy
-  - (incomplete) Super Win The Game
   - System Shock 2
   - Team Fortress 2
   - Teeworlds
@@ -601,10 +675,6 @@
   - The Stanley Parable
   - They Bleed Pixels
   - Thomas Was Alone
-  - (incomplete) Trip to Vinelands
-  - (incomplete) UBERMOSH
-  - (incomplete) UBERMOSH Vol. 3
-  - (incomplete) UBERMOSH: BLACK
   - Unepic
   - UniBall
   - Unturned
@@ -612,4 +682,3 @@
   - WAKFU
   - Waveform
   - World of Goo
-  - (incomplete) You Have To Win The Game
