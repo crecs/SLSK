@@ -119,7 +119,7 @@ If you're adding entries via spreadsheet, just make sure that:
 
 * **The field delimiter is '|', there's no text delimiter**
 * **Remove the first line which contains the column names after exporting the CSV file**
-* **(OPTIONAL) Sort the spreadsheet by alphabetical order before exporting, if you have OCD issues like me then you'll feel way better ;)**
+* **(OPTIONAL) Sort the spreadsheet by alphabetical order before exporting - [here's a good site for you if you wish](http://www.alphabetizer.org/)**
 
 Additionally, if you want to batch add entries (or really just automate it so you don't need to enter each one individually), there's a batch script I wrote in
 Python 3 [right here](db_batch) if you wanna use it.
