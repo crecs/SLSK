@@ -10,8 +10,8 @@ Here's how to do it:
 5. When you're done, **if there are any entry fields left unused, delete 'em** (also VERY important)
 6. Save it and run the script -> `python3 convert.py`
 
-This way, two files will be generated with all entries formatted: `db_output.csv` and `log_output.txt`. You can import `db_output.csv` to a separate spreadsheet
-so you can copy-paste the cells directly to the database, and `log_output.txt` will have all your entries ready to add to the changelog as well (just make sure to
-do the usual polish, like stated in [CONTRIBUTING.md](../CONTRIBUTING.md)).
+This way, three files will be generated: `db_output.csv`, `log_output.txt` and `list_output.txt`. You can import `db_output.csv` to a separate spreadsheet so you
+can copy-paste the cells directly to the database, `log_output.txt` will format all your entries for the CHANGELOG as well and `list_output.txt` will format all
+your entries for the MISSINGLIST (just make sure to do the usual polish, like stated in [CONTRIBUTING.md](../CONTRIBUTING.md)).
 
 Using this is completely optional, but I'm sure it will be of use for many of us ;)
