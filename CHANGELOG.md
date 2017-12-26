@@ -29,11 +29,11 @@
   - (incomplete) Pajama Sam 3: You Are What You Eat From Your Head To Your Feet
   - (incomplete) Pixel Boy and the Ever Expanding Dungeon
   - (incomplete) Planet Stronghold
-  - (incomplete) Putt-PuttÂ® and Pep's Dog on a Stick
-  - (incomplete) Putt-PuttÂ® Enters the Race
-  - (incomplete) Putt-PuttÂ® Goes to the Moon
-  - (incomplete) Putt-PuttÂ® Joins the Circus
-  - (incomplete) Putt-PuttÂ® Travels Through Time
+  - (incomplete) Putt-Putt and Pep's Dog on a Stick
+  - (incomplete) Putt-Putt Enters the Race
+  - (incomplete) Putt-Putt Goes to the Moon
+  - (incomplete) Putt-Putt Joins the Circus
+  - (incomplete) Putt-Putt Travels Through Time
   - (incomplete) Rabbit Hole 3D: Steam Edition
   - (incomplete) Sir, You Are Being Hunted
   - (incomplete) Spirited Heart Deluxe
@@ -88,7 +88,7 @@
   - (incomplete) Millie
   - (incomplete) Moebius: Empire Rising
   - (incomplete) Paranormal State: Poison Spring
-  - (incomplete) Putt-PuttÂ® Joins the Parade
+  - (incomplete) Putt-Putt Joins the Parade
   - (incomplete) ReignMaker
   - (incomplete) Rogue's Tale
   - (incomplete) Sentinel
