@@ -83,9 +83,9 @@ edit entries there, then generating the CSV file there (you can do it in LibreOf
 Each registered Linux Steam game in the file and consequently in the database (from now on referred as an "entry") has the following columns
 (or "fields") in this exact order:
 
-* **AppID (PRIMARY KEY)** - The game's AppID on Steam (http://store.steampowered.com/app/`AppID-goes-here`)
-* **SteamName** - The game's name as it appears on the Steam store
-* **GameFolder** - The game folder's name (exactly how it is named inside `steamapps/common`)
+* **AppID (PRIMARY KEY)** - The game's AppID on Steam
+* **SteamName** - The game's name (just make sure to remove any special symbols like copyright, tm, double quotes or what have you)
+* **GameFolder** - The game folder's name
 * **SavePath1** - The full path of the folder where the game stores its save files
 * **SaveFolder1** - The name of the folder where the game stores its save files (last folder in the path - after the last "/")
 * **ConfigPath1** - The full path of the folder where the game stores its configurations
@@ -99,8 +99,18 @@ Each registered Linux Steam game in the file and consequently in the database (f
 * **ConfigPath3** - A third (optional) path for the config folder
 * **ConfigFolder3** - A third (optional) config folder
 
-Adding an entry to the file requires a few guidelines which will help both the program on filtering and working in general, and whoever wants
-to take a quick look at the file to know where there is missing information.
+Adding an entry to the file requires the three first columns as a bare minimum: AppID, SteamName and GameFolder. These three columns can *always* be found
+in several ways:
+
+* **AppID**: you can look at the game's URL (http://store.steampowered.com/app/`AppID-goes-here`), *or* search for the game at [SteamDB](https://steamdb.info),
+it's under the "App ID" field
+* **SteamName**: pretty obvious. It's also in the game's page at SteamDB under the "Name" field
+* **GameFolder**: if you have the game installed, take a look at your Steam library folder (generally `~/.local/share/Steam/steamapps/common`, or wherever you
+have your games installed). Alternatively, if you don't have the game, it can be found under SteamDB, in the Configuration menu at the side of the page (or if
+you like URLs, `https://steamdb.info/app/AppID-goes-here/config`). Under "**Configuration**", the key called "**installdir**" shows the game's folder name
+
+Here's a few guidelines which will help both the program on filtering and working in general, and whoever wants to take a quick look at the file to know where
+there is missing information.
 
 ### Guidelines for adding entries
 
@@ -113,6 +123,7 @@ When adding an entry to the CSV file, keep the following in mind:
 * **Every field needs to be filled**
 
 Adding Half-Life directly to the .csv file, as an example:
+
 70|Half-Life|Half-Life|$STEAMAPPS/Half-Life/valve|valve|$STEAMAPPS/Half-Life/valve|valve|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]|[N/A]
 
 If you're adding entries via spreadsheet, just make sure that:
@@ -170,7 +181,7 @@ If the SavePath/ConfigPath ends in:
 Yes, this means duplicates may occur, but that's intentional. Also, *please* use `~` to indicate the user's home folder, people recognize it
 easily and it's shorter than `$HOME`, plus the GUI tool needs it to do some work.
 
-#### 3. **[UNKNOWN] paths and games with too much missing information**
+#### 3. **[UNKNOWN] paths**
 
 **NOTE: this is exclusively for paths labeled as [UNKNOWN], it doesn't apply to games with paths labeled as [N/A] or [CLOUD-ONLY].**
 
@@ -190,16 +201,15 @@ this criteria, kind of like a "wanted list" or "bounty list" if you like catchy 
   * add the game in the CHANGELOG but without the "(incomplete)" before it (more details below in Changelog and Versioning)
   * remove the game's name from MISSINGLIST.md
 
-This should only be considered if you at least have the bare minimum - AppID, SteamName *and* FolderName. If you're missing even *one* of those, *don't* add the
-game to the database. You should only add the game to MISSINGLIST.md under the section "**LIST OF NOT-ADDED GAMES**" instead, stating what is missing and what
-have you found so far.
-
 #### 4. Games that "aren't really games"
 
 Steam is weird in a sense that it also counts DLCs, expansions and bundles as games, so the real game count is not accurate. We're looking to register only full,
 standalone games. If you happen to find an entry in the Steam catalog like that, *don't* add it to the database. Add it only to [MISSINGLIST.md](MISSINGLIST.md)
-instead, under the section "**LIST OF IGNORED ENTRIES**", stating why was it ignored. Both sections "**LIST OF NOT-ADDED GAMES**" and "**LIST OF IGNORED ENTRIES**"
-do not need to be included in the CHANGELOG, so you don't need to state you've put any game in either of those. Just put it and commit away.
+instead, under the section "**LIST OF IGNORED ENTRIES**", stating why was it ignored. If you're not sure at all, or it all seems too confusing for you, add it under
+the section **LIST OF NOT-ADDED GAMES**, stating why you couldn't add it normally.
+
+Both sections "**LIST OF NOT-ADDED GAMES**" and "**LIST OF IGNORED ENTRIES**" do not need to be included in the CHANGELOG, so you don't need to state you've put
+any game in either of those. Just put it and commit away.
 
 *Examples of entries which would enter in this category*:
 
