@@ -1,5 +1,85 @@
 # CHANGELOG
 
+### 2017-12-27 - Database update
+* This one also contains games otherwise not added due to missing game folder, thus the bunch of incomplete entries
+* 76 games added to the database:
+  - (incomplete) 9 Clues: The Secret of Serpent Creek
+  - (incomplete) A Valley Without Wind 2
+  - (incomplete) Before the Echo
+  - (incomplete) Blueberry Garden
+  - (incomplete) Bridge Constructor Playground
+  - (incomplete) Children of Liberty
+  - (incomplete) Depths of Peril
+  - (incomplete) Derrick the Deathfin
+  - (incomplete) DIVO
+  - (incomplete) Dungeon of Elements
+  - (incomplete) Eschalon: Book II
+  - (incomplete) Evil Pumpkin: The Lost Halloween
+  - (incomplete) Farm for your Life
+  - (incomplete) Fester Mudd: Curse of the Gold - Episode 1
+  - (incomplete) Galcon Fusion
+  - (incomplete) Gentlemen!
+  - (incomplete) Heroes Rise: HeroFall
+  - (incomplete) Inescapable
+  - (incomplete) Infinite Game Works Episode 0
+  - (incomplete) Kill Fun Yeah
+  - (incomplete) Kill The Bad Guy
+  - (incomplete) Legions of Ashworld
+  - (incomplete) Monsters Ate My Birthday Cake
+  - (incomplete) Namariel Legends: Iron Lord Premium Edition
+  - (incomplete) Pajama Sam's Lost & Found
+  - (incomplete) Pirates, Vikings, and Knights II
+  - (incomplete) Pulstar
+  - (incomplete) Putt-Putt and Fatty Bear's Activity Pack
+  - (incomplete) Putt-Putt and Pep's Balloon-o-Rama
+  - (incomplete) Putt-Putt Saves the Zoo
+  - (incomplete) Q*bert: Rebooted
+  - (incomplete) Quest for Infamy
+  - (incomplete) Retrobooster
+  - (incomplete) Reversion - The Escape (1st Chapter)
+  - (incomplete) Reversion - The Meeting (2nd Chapter)
+  - (incomplete) Rube Works: The Official Rube Goldberg Invention Game
+  - (incomplete) SATAZIUS
+  - (incomplete) Spate
+  - (incomplete) Stranded
+  - (incomplete) Sunrider: Mask of Arcadius
+  - (incomplete) Terrian Saga: KR-17
+  - (incomplete) Tex Murphy: Martian Memorandum
+  - (incomplete) Tex Murphy: Mean Streets
+  - (incomplete) Tex Murphy: The Pandora Directive
+  - (incomplete) Tex Murphy: Under a Killing Moon
+  - (incomplete) The Graveyard
+  - (incomplete) Three Dead Zed
+  - (incomplete) Triblaster
+  - (incomplete) Volt
+  - (incomplete) War in a Box: Paper Tanks
+  - (incomplete) Whispering Willows
+  - (incomplete) XenoRaptor
+  - Aeon Command
+  - A Wizard's Lizard
+  - Battle Group 2
+  - Black Ice
+  - Company of Heroes 2 - The Western Front Armies
+  - Contraption Maker
+  - Crimsonland
+  - Cult of the Wind
+  - Deponia: The Complete Journey
+  - GRID Autosport
+  - Heileen 2: The Hands Of Fate
+  - Heroes Rise: The Hero Project
+  - Heroes Rise: The Prodigy
+  - Ichi
+  - Knightmare Tower
+  - MouseCraft
+  - Munin
+  - Sakura Spirit
+  - Shovel Knight: Treasure Trove
+  - Space Run
+  - Spoiler Alert
+  - Spy Chameleon - RGB Agent
+  - WORLD END ECONOMiCA episode.01
+  - Xenonauts
+
 ### 2017-12-26 - Database update
 * This one was pretty much a downer IMO (curse you Humongous Entertainment!)
 * 64 games added to the database:
