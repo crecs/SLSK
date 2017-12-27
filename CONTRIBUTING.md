@@ -102,7 +102,7 @@ Each registered Linux Steam game in the file and consequently in the database (f
 Adding an entry to the file requires the three first columns as a bare minimum: AppID, SteamName and GameFolder. These three columns can *always* be found
 in several ways:
 
-* **AppID**: you can look at the game's URL (http://store.steampowered.com/app/`AppID-goes-here`), *or* search for the game at [SteamDB](https://steamdb.info),
+* **AppID**: you can look at the game's URL (`http://store.steampowered.com/app/AppID-goes-here`), *or* search for the game at [SteamDB](https://steamdb.info),
 it's under the "App ID" field
 * **SteamName**: pretty obvious. It's also in the game's page at SteamDB under the "Name" field
 * **GameFolder**: if you have the game installed, take a look at your Steam library folder (generally `~/.local/share/Steam/steamapps/common`, or wherever you
