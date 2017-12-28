@@ -1,5 +1,28 @@
 # CHANGELOG
 
+### 2017-12-28 - Database update
+* 20 games added to the database:
+  - (incomplete) AR-K
+  - (incomplete) Defense Zone
+  - (incomplete) Detective Case and Clown Bot in: Murder in the Hotel Lisbon
+  - (incomplete) Ground Pounders
+  - (incomplete) Heileen 3: New Horizons
+  - (incomplete) Infinity Runner
+  - (incomplete) Light
+  - (incomplete) Micron
+  - (incomplete) Pixel Hunter
+  - (incomplete) The Forgotten Ones
+  - (incomplete) The Nightmare Cooperative
+  - (incomplete) Undead Overlord
+  - (incomplete) X-Plane 10 Global - 64 Bit
+  - Gods Will Be Watching
+  - Halfway
+  - Hidden in Plain Sight
+  - OlliOlli
+  - Pivvot
+  - Sokobond
+  - So Many Me
+
 ### 2017-12-27 - Database update
 * This one also contains games otherwise not added due to missing game folder, thus the bunch of incomplete entries
 * 76 games added to the database:
