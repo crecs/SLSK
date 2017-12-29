@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ### 2017-12-29 - Database update
-* X games added to the database:
+* 73 games added to the database:
   - (incomplete) 6180 the moon
   - (incomplete) Appointment With FEAR
   - (incomplete) Bionic Heart
@@ -29,7 +29,7 @@
   - (incomplete) OTTTD
   - (incomplete) Pineview Drive
   - (incomplete) Psichodelya
-  - (incomplete) SchrÃ¶dinger's Cat And The Raiders Of The Lost Quark
+  - (incomplete) Schrodinger's Cat And The Raiders Of The Lost Quark
   - (incomplete) Sentris
   - (incomplete) Shadowgate (2014)
   - (incomplete) SPACECOM
