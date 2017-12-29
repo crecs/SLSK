@@ -1,5 +1,81 @@
 # CHANGELOG
 
+### 2017-12-29 - Database update
+* X games added to the database:
+  - (incomplete) 6180 the moon
+  - (incomplete) Appointment With FEAR
+  - (incomplete) Bionic Heart
+  - (incomplete) Blinding Dark
+  - (incomplete) Bravada
+  - (incomplete) Bridge Constructor Medieval
+  - (incomplete) Cannon Brawl
+  - (incomplete) Choice of the Deathless
+  - (incomplete) Depression Quest
+  - (incomplete) Detective Grimoire
+  - (incomplete) Doorways: The Underworld
+  - (incomplete) Flockers
+  - (incomplete) Flower Shop: Winter In Fairbrook
+  - (incomplete) From the Depths
+  - (incomplete) Great Permutator
+  - (incomplete) Grim Legends: The Forsaken Bride
+  - (incomplete) Heroes & Legends: Conquerors of Kolhar
+  - (incomplete) Heroes of a Broken Land
+  - (incomplete) Max Gentlemen
+  - (incomplete) McDROID
+  - (incomplete) Mega Coin Squad
+  - (incomplete) Mountain
+  - (incomplete) Nicole (otome version)
+  - (incomplete) Orborun
+  - (incomplete) OTTTD
+  - (incomplete) Pineview Drive
+  - (incomplete) Psichodelya
+  - (incomplete) SchrÃ¶dinger's Cat And The Raiders Of The Lost Quark
+  - (incomplete) Sentris
+  - (incomplete) Shadowgate (2014)
+  - (incomplete) SPACECOM
+  - (incomplete) Steam Marines
+  - (incomplete) The Collider
+  - (incomplete) The Escapist
+  - (incomplete) The Maker's Eden
+  - (incomplete) Time Mysteries 2: The Ancient Spectres
+  - (incomplete) Time Mysteries 3: The Final Enigma
+  - (incomplete) Toast Time
+  - (incomplete) Trace Vector
+  - (incomplete) World of Diving
+  - Back to Bed
+  - Beyond Gravity
+  - Bionic Heart 2
+  - Boson X
+  - Cannons Lasers Rockets
+  - Date Warp
+  - DG2: Defense Grid 2
+  - Fall of the New Age Premium Edition
+  - GoD Factory: Wingmen
+  - Hack 'n' Slash
+  - Hatoful Boyfriend
+  - Hexcells Infinite
+  - J.U.L.I.A.: Among the Stars
+  - Lethal League
+  - Lovely Planet
+  - Metro 2033 Redux
+  - Metro: Last Light Redux
+  - MIND: Path to Thalamus Enhanced Edition
+  - Murder Miners
+  - Only If
+  - Planetary Annihilation
+  - Pyrite Heart
+  - Rising Angels: Reborn
+  - Roundabout
+  - Shadowrun: Dragonfall - Director's Cut
+  - Shan Gui
+  - Super Time Force Ultra
+  - The Journey Down: Chapter Two
+  - Train Fever
+  - Velocibox
+  - Victory At Sea
+  - Wasteland 2: Director's Cut
+  - Wyv and Keep: The Temple of the Lost Idol
+
 ### 2017-12-28 - Database update
 * 20 games added to the database:
   - (incomplete) AR-K
