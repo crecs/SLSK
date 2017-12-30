@@ -148,13 +148,15 @@ void MainMenu::ReadBackupDate(char op){
 }
 
 
+void MainMenu::PrepareScan()
+{
+    Window->ui->GameList->clear();                  // Clearing the list beforehand
+    Window->ui->ScanningLabel->setVisible(true);    // Showing the scan message
+}
+
 // Functions that scan folders for content
 // For Backup Mode - scans Steam folder
 void MainMenu::BackupScan(){
-    Window->ui->GameList->clear();                  // Clearing the list beforehand
-    Window->ui->ScanningLabel->setVisible(true);    // Showing the scan message
-    App->processEvents();                           // Updating GUI
-
     // Starting scan process based on option:
     // Saves
     if (MainMenu::ProcessOp == 'S'){
@@ -249,9 +251,6 @@ void MainMenu::BackupScan(){
 
 // For Restore Mode - scans backup subfolders
 void MainMenu::RestoreScan(){
-    Window->ui->GameList->clear();                  // Clearing the list beforehand
-    Window->ui->ScanningLabel->setVisible(true);    // Showing the scan message
-    App->processEvents();                           // Updating GUI
     bool done = false;                              // Setting boolean for scanning
 
     // Starting scan process based on option:
