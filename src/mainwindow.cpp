@@ -121,7 +121,7 @@ void MainWindow::UpdateTotalSize(){
     if (MainMenu::OneItemChecked()){                                                // If at least one item has been checked:
         Window->ui->TotalSizeLabel->setText("Calculating\nsize...");                // Update size label
         Window->ui->StartBtn->setDisabled(true);                                    // Disable the Start button for calculation
-        QTimer::singleShot(0, Window, SLOT(ProcessTotalSize()));
+        QTimer::singleShot(1, Window, SLOT(ProcessTotalSize()));
     } else {                                                                        // If no item has been checked:
         Window->ui->TotalSizeLabel->setText("");                                    // "Hide" the size label
         Window->ui->StartBtn->setDisabled(true);                                    // Disable the Start button
@@ -145,42 +145,42 @@ void MainWindow::on_BackupScanSaveBtn_clicked(){        // Backup Saves
     MainMenu::SwitchMode('B', 'S');
     Window->ui->StartBtn->setDisabled(true);
     MainMenu::PrepareScan();
-    QTimer::singleShot(0, this, SLOT(ProcessBackup()));
+    QTimer::singleShot(1, this, SLOT(ProcessBackup()));
 }
 
 void MainWindow::on_BackupScanConfigBtn_clicked(){      // Backup Configs
     MainMenu::SwitchMode('B', 'C');
     Window->ui->StartBtn->setDisabled(true);
     MainMenu::PrepareScan();
-    QTimer::singleShot(0, this, SLOT(ProcessBackup()));
+    QTimer::singleShot(1, this, SLOT(ProcessBackup()));
 }
 
 void MainWindow::on_BackupScanGameBtn_clicked(){        // Backup Games
     MainMenu::SwitchMode('B', 'G');
     Window->ui->StartBtn->setDisabled(true);
     MainMenu::PrepareScan();
-    QTimer::singleShot(0, this, SLOT(ProcessBackup()));
+    QTimer::singleShot(1, this, SLOT(ProcessBackup()));
 }
 
 void MainWindow::on_RestoreScanSaveBtn_clicked(){       // Restore Saves
     MainMenu::SwitchMode('R', 'S');
     Window->ui->StartBtn->setDisabled(true);
     MainMenu::PrepareScan();
-    QTimer::singleShot(0, this, SLOT(ProcessRestore()));
+    QTimer::singleShot(1, this, SLOT(ProcessRestore()));
 }
 
 void MainWindow::on_RestoreScanConfigBtn_clicked(){     // Restore Configs
     MainMenu::SwitchMode('R', 'C');
     Window->ui->StartBtn->setDisabled(true);
     MainMenu::PrepareScan();
-    QTimer::singleShot(0, this, SLOT(ProcessRestore()));
+    QTimer::singleShot(1, this, SLOT(ProcessRestore()));
 }
 
 void MainWindow::on_RestoreScanGameBtn_clicked(){       // Restore Games
     MainMenu::SwitchMode('R', 'G');
     Window->ui->StartBtn->setDisabled(true);
     MainMenu::PrepareScan();
-    QTimer::singleShot(0, this, SLOT(ProcessRestore()));
+    QTimer::singleShot(1, this, SLOT(ProcessRestore()));
 }
 
 void MainWindow::ProcessBackup()
