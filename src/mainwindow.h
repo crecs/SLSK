@@ -50,6 +50,9 @@ class MainWindow : public QMainWindow {
         void on_StartBtn_clicked();
         void on_CancelBtn_clicked();
         void on_MenuBtn_clicked();
+        void ProcessBackup();
+        void ProcessRestore();
+        void ProcessTotalSize();
 };
 
 #endif // MAINWINDOW_H
