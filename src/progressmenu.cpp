@@ -129,10 +129,12 @@ void ProgressMenu::FetchPaths(QString Game){
 void ProgressMenu::Backup(char op, std::string path, int n){
     // Setting paths for iterator based on option
     switch (op){
-    case 'S': CurrentSubFolder = MainMenu::BackupFolder + "/SteamSaves/";
+    case 'S': CurrentSubFolder = MainMenu::BackupFolder + "/SteamSaves/" +
+                                 DB::FetchGameInfo("SELECT SteamName FROM RegisteredGames WHERE SavePath" + std::to_string(n) + " = '" + path + "'") + "/";
               CurrentPathFolder = DB::FetchGameInfo("SELECT SaveFolder" + std::to_string(n) + " FROM RegisteredGames "
                                   "WHERE SavePath" + std::to_string(n) + " = '" + path + "'"); break;
-    case 'C': CurrentSubFolder = MainMenu::BackupFolder + "/SteamConfigs/";
+    case 'C': CurrentSubFolder = MainMenu::BackupFolder + "/SteamConfigs/" +
+                                 DB::FetchGameInfo("SELECT SteamName FROM RegisteredGames WHERE ConfigPath" + std::to_string(n) + " = '" + path + "'") + "/";
               CurrentPathFolder = DB::FetchGameInfo("SELECT ConfigFolder" + std::to_string(n) + " FROM RegisteredGames "
                                   "WHERE ConfigPath" + std::to_string(n) + " = '" + path + "'"); break;
     case 'G': CurrentSubFolder = MainMenu::BackupFolder + "/SteamGames/";
@@ -221,12 +223,14 @@ void ProgressMenu::Backup(char op, std::string path, int n){
 void ProgressMenu::Restore(char op, std::string path, int n){
     // Setting paths for iterator based on option
     switch (op){
-    case 'S': CurrentSubFolder = MainMenu::BackupFolder + "/SteamSaves/";
+    case 'S': CurrentSubFolder = MainMenu::BackupFolder + "/SteamSaves/" +
+                                 DB::FetchGameInfo("SELECT SteamName FROM RegisteredGames WHERE SavePath" + std::to_string(n) + " = '" + path + "'") + "/";
               CurrentPathFolder = DB::FetchGameInfo("SELECT SaveFolder" + std::to_string(n) + " FROM RegisteredGames "
                                   "WHERE SavePath" + std::to_string(n) + " = '" + path + "'"); break;
-    case 'C': CurrentSubFolder = MainMenu::BackupFolder + "/SteamConfigs/";
+    case 'C': CurrentSubFolder = MainMenu::BackupFolder + "/SteamConfigs/" +
+                                 DB::FetchGameInfo("SELECT SteamName FROM RegisteredGames WHERE ConfigPath" + std::to_string(n) + " = '" + path + "'") + "/";
               CurrentPathFolder = DB::FetchGameInfo("SELECT ConfigFolder" + std::to_string(n) + " FROM RegisteredGames "
-                            "WHERE ConfigPath" + std::to_string(n) + " = '" + path + "'"); break;
+                                  "WHERE ConfigPath" + std::to_string(n) + " = '" + path + "'"); break;
     case 'G': CurrentSubFolder = MainMenu::BackupFolder + "/SteamGames/";
               CurrentPathFolder = CurrentFolder; break;
     }
@@ -402,6 +406,11 @@ void ProgressMenu::StartProcess(char mode, char op, QListWidget* gamelist){
     // If process can continue (meaning it hasn't force stopped):
     if (ProgressMenu::StopProcess == false){
         ProgressMenu::WriteBackupDate(op);                                                                      // Write the current date and time on the database...
+        switch (op){                                                                                            // ...redefine the current folder...
+            case 'S': CurrentSubFolder = MainMenu::BackupFolder + "/SteamSaves"; break;
+            case 'C': CurrentSubFolder = MainMenu::BackupFolder + "/SteamConfigs"; break;
+            case 'G': CurrentSubFolder = MainMenu::BackupFolder + "/SteamGames"; break;
+        }
         emit MainWindow::CopyThread->UpdateResultsScreen(mode, op, QString::fromStdString(CurrentSubFolder));   // ...and emit a signal to bring the results screen
     }
 }

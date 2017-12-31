@@ -21,6 +21,7 @@ accompanying COPYING file for more details.
 #include <QMessageBox>
 #include <QStorageInfo>
 #include <QtDebug>
+#include <QtGlobal>
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
@@ -40,10 +41,10 @@ accompanying COPYING file for more details.
 char MainMenu::ProcessMode = 0, MainMenu::ProcessOp = 0;
 
 // Strings for folder paths
-QString FolderName, GameName, CurrentScanSave, CurrentScanConfig, CurrentScanGame, CurrentScanManifest;
+QString FolderName, GameName, CurrentManifest;
 std::string MainMenu::BackupFolder = "";
 
-double TotalSize;   // Double for total size of operation
+double TotalSize; // Double for total size of operation (in bytes)
 
 //-----------------------------------------------------------------------------------------------------------
 // FUNCTIONS
@@ -147,9 +148,8 @@ void MainMenu::ReadBackupDate(char op){
     Window->ui->LastBackupLabel->setText("Backup date:\n" + date + "\n" + time);    // Display the content in the UI
 }
 
-
-void MainMenu::PrepareScan()
-{
+// Update the GUI for scanning
+void MainMenu::PrepareScan(){
     Window->ui->GameList->clear();                  // Clearing the list beforehand
     Window->ui->ScanningLabel->setVisible(true);    // Showing the scan message
 }
@@ -264,24 +264,9 @@ void MainMenu::RestoreScan(){
             if (SaveIterator.hasNext()){
                 SaveIterator.next();    // Iterate to the next save folder
 
-                for (int ct = 1; ct <= 3; ct++){
-                    // Search for the respective game folder
-                    CurrentScanSave = QString::fromStdString(DB::FetchGameInfo("SELECT GameFolder FROM RegisteredGames "
-                    "WHERE SaveFolder" + std::to_string(ct) + " = '" + SaveIterator.fileName().toStdString() + "'"));
-
-                    // Quick fix for multiple save directories
-                    if (CurrentScanSave == "NONE"){
-                        CurrentScanSave = QString::fromStdString(DB::FetchGameInfo("SELECT GameFolder FROM RegisteredGames "
-                        "WHERE SaveFolder" + std::to_string(ct) + " = '" + DB::FetchGameInfo("SELECT SaveFolder" + std::to_string(ct) +
-                        " FROM RegisteredGames WHERE SavePath" + std::to_string(ct) + " LIKE '%" + SaveIterator.fileName().toStdString() + "%'") + "'"));
-                    }
-
-                    // If game folder is found and game exists on database, add game to the list and exit inner loop
-                    if (CurrentScanSave != "NONE" && DB::CheckGameOnDB(CurrentScanSave) == true){
-                        Window->ui->GameList->addItem(CurrentScanSave); ct = 4;
-                    }
-                }
-            } else { done = true; } // Exit outer loop if there are no more folders left
+                // If folder is not empty and game exists in the database, there are saves to be copied - thus, add the game to the list
+                if (QDir(SaveIterator.path()).count() > 0 && DB::CheckGameOnDB(SaveIterator.fileName()) == true){ Window->ui->GameList->addItem(SaveIterator.fileName()); }
+            } else { done = true; }     // Exit loop if there are no more folders left
         }
 
     // Configs
@@ -294,17 +279,9 @@ void MainMenu::RestoreScan(){
             if (ConfigIterator.hasNext()){
                 ConfigIterator.next();  // Iterate to the next config folder
 
-                for (int ct = 1; ct <= 3; ct++){
-                    // Search for the respective folder
-                    CurrentScanConfig = QString::fromStdString(DB::FetchGameInfo("SELECT GameFolder FROM RegisteredGames "
-                    "WHERE ConfigFolder" + std::to_string(ct) + " = '" + ConfigIterator.fileName().toStdString() + "'"));
-
-                    // If game folder is found and game exists on database, add game to the list and exit inner loop
-                    if (CurrentScanConfig != "NONE" && DB::CheckGameOnDB(CurrentScanConfig) == true){
-                        Window->ui->GameList->addItem(CurrentScanConfig); ct = 4;
-                    }
-                }
-            } else { done = true; } // Exit outer loop if there are no more folders left
+                // If folder is not empty and game exists in the database, there are configs to be copied - thus, add the game to the list
+                if (QDir(ConfigIterator.path()).count() > 0 && DB::CheckGameOnDB(ConfigIterator.fileName()) == true){ Window->ui->GameList->addItem(ConfigIterator.fileName()); }
+            } else { done = true; }     // Exit loop if there are no more folders left
         }
 
     // Games
@@ -328,13 +305,13 @@ void MainMenu::RestoreScan(){
                     ManifestIterator.next();
 
                     // Search for repective folder
-                    CurrentScanManifest = QString::fromStdString(DB::FetchGameInfo("SELECT AppID FROM RegisteredGames "
+                    CurrentManifest = QString::fromStdString(DB::FetchGameInfo("SELECT AppID FROM RegisteredGames "
                                           "WHERE GameFolder = '" + GameIterator.fileName().toStdString() + "'"));
 
                     /* If game folder is found, exists in database and its respective manifest is found,
                        add game to list and exit inner loop */
-                    if (CurrentScanManifest != "NONE" && DB::CheckGameOnDB(GameIterator.fileName()) == true &&
-                    ManifestIterator.fileName().contains(CurrentScanManifest)){
+                    if (CurrentManifest != "NONE" && DB::CheckGameOnDB(GameIterator.fileName()) == true &&
+                    ManifestIterator.fileName().contains(CurrentManifest)){
                         Window->ui->GameList->addItem(GameIterator.fileName());
                         foundmanifest = true;
                     }
@@ -497,16 +474,16 @@ void MainMenu::CheckTotalSize(){
     }
 
     // Display total value as KB by default
-    Window->ui->TotalSizeLabel->setText("Total size:\n" + QString::number(TotalSize, 'f', 2) + " KB");
+    Window->ui->TotalSizeLabel->setText("Approx. size:\n" + QString::number(TotalSize, 'f', 2) + " KB");
     // If it exceeds 1024KB, convert to MB
     if (TotalSize > 1024){
         TotalSize = TotalSize / (double)1024;
-        Window->ui->TotalSizeLabel->setText("Total size:\n" + QString::number(TotalSize, 'f', 2) + " MB");
+        Window->ui->TotalSizeLabel->setText("Approx. size:\n" + QString::number(TotalSize, 'f', 2) + " MB");
     }
     // If it exceeds 1024MB, convert to GB (stops here)
     if (TotalSize > 1024){
         TotalSize = TotalSize / (double)1024;
-        Window->ui->TotalSizeLabel->setText("Total size:\n" + QString::number(TotalSize, 'f', 2) + " GB");
+        Window->ui->TotalSizeLabel->setText("Approx. size:\n" + QString::number(TotalSize, 'f', 2) + " GB");
     }
 }
 

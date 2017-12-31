@@ -128,8 +128,8 @@ void MainWindow::UpdateTotalSize(){
     }
 }
 
-void MainWindow::ProcessTotalSize()
-{
+// Checks total size while updating GUI
+void MainWindow::ProcessTotalSize(){
     MainMenu::CheckTotalSize();                                                     // Check total size of operation
     Window->ui->StartBtn->setDisabled(false);                                       // Enable the Start button again
 }
@@ -145,7 +145,7 @@ void MainWindow::on_BackupScanSaveBtn_clicked(){        // Backup Saves
     MainMenu::SwitchMode('B', 'S');
     Window->ui->StartBtn->setDisabled(true);
     MainMenu::PrepareScan();
-    QTimer::singleShot(1, this, SLOT(ProcessBackup()));
+    QTimer::singleShot(1, this, SLOT(ProcessBackup())); // Timer for updating GUI
 }
 
 void MainWindow::on_BackupScanConfigBtn_clicked(){      // Backup Configs
@@ -183,15 +183,16 @@ void MainWindow::on_RestoreScanGameBtn_clicked(){       // Restore Games
     QTimer::singleShot(1, this, SLOT(ProcessRestore()));
 }
 
-void MainWindow::ProcessBackup()
-{
+// Functions that actually start the scanning
+// Backup
+void MainWindow::ProcessBackup(){
     MainMenu::BackupScan();
     Window->ui->StartBtn->setDisabled(false);
     MainMenu::OrganizeGameList(); MainMenu::LockUnlock();
 }
 
-void MainWindow::ProcessRestore()
-{
+// Restore
+void MainWindow::ProcessRestore(){
     MainMenu::RestoreScan();
     Window->ui->StartBtn->setDisabled(false);
     MainMenu::OrganizeGameList(); MainMenu::LockUnlock();

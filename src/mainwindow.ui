@@ -645,7 +645,7 @@ Saves</string>
       <string notr="true">color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
-      <string>Total size:
+      <string>Approx. size:
 9999.99 GB</string>
      </property>
     </widget>
