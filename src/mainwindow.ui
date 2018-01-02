@@ -590,7 +590,7 @@ Saves</string>
       <string notr="true">color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
-      <string>SLSK v1.1.0 - Copyright © 2017 Supremist (aka supremesonicbrazil)</string>
+      <string>SLSK v1.1.1 - Copyright © 2017-2018 Supremist (aka supremesonicbrazil)</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
