@@ -1,5 +1,41 @@
 # CHANGELOG
 
+### 2018-01-02 - Database update
+* 33 games added to the database:
+  - (incomplete) A Golden Wake
+  - (incomplete) BloodNet
+  - (incomplete) Darklands
+  - (incomplete) Devil's Dare
+  - (incomplete) Dragonsphere
+  - (incomplete) Enigmatis: The Ghosts of Maple Creek
+  - (incomplete) Eufloria HD
+  - (incomplete) Khet 2.0
+  - (incomplete) Left in the Dark: No One on Board
+  - (incomplete) Pier Solar and the Great Architects
+  - (incomplete) Poltergeist: A Pixelated Horror
+  - (incomplete) Rex Nebular and the Cosmic Gender Bender
+  - (incomplete) Roommates
+  - (incomplete) Sid Meier's Colonization (Classic)
+  - (incomplete) Sid Meier's Covert Action (Classic)
+  - (incomplete) Sid Meier's Pirates! Gold Plus (Classic)
+  - (incomplete) Sword of the Samurai
+  - (incomplete) Thieves' Gambit: The Curse of the Black Cat
+  - (incomplete) TinyKeep
+  - (incomplete) Warring States
+  - Alien: Isolation
+  - Bik - A Space Adventure
+  - Borderlands: The Pre-Sequel
+  - Costume Quest 2
+  - Door Kickers
+  - Jagged Alliance Flashback
+  - Middle-earth: Shadow of Mordor
+  - Neverending Nightmares
+  - Screencheat
+  - Sigils of Elohim
+  - STARWHAL
+  - TRI: Of Friendship and Madness
+  - Ultimate General: Gettysburg
+
 ### 2018-01-01 - Core update [v1.1.1]
 * Happy New Year everyone!
 * Backup/restore scanning is now faster (see issue #6)
