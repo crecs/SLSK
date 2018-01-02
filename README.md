@@ -160,7 +160,7 @@ Using a currency that's not listed here? Please let me know! I'll be glad to add
 
 ## License / Copyright
 
-**Copyright (C) 2017 Supremist (aka supremesonicbrazil)**
+**Copyright (C) 2017-2018 Supremist (aka supremesonicbrazil)**
 
 Reddit: [/u/TheSupremist](https://www.reddit.com/user/TheSupremist/)
 

@@ -1,7 +1,6 @@
 /*
 =========================================================================
 ---[SLSK - Main Window/UI]---
-Copyright (C) 2017 Supremist (aka supremesonicbrazil)
 This file is part of Steam Linux Swiss Knife (or SLSK for short).
 Steam Linux Swiss Knife is available under the GNU GPL v3.0 license. See the
 accompanying COPYING file for more details.
@@ -18,6 +17,7 @@ accompanying COPYING file for more details.
 #include <QMessageBox>
 #include <QThread>
 #include <QObject>
+#include <QTimer>
 
 // Program-specific libs
 #include "db.h"
@@ -120,14 +120,19 @@ void MainWindow::UpdateTotalSize(){
     if (MainMenu::OneItemChecked()){                                                // If at least one item has been checked:
         Window->ui->TotalSizeLabel->setText("Calculating\nsize...");                // Update size label
         Window->ui->StartBtn->setDisabled(true);                                    // Disable the Start button for calculation
-        App->processEvents();                                                       // Let the UI settle in
-        MainMenu::CheckTotalSize();                                                 // Check total size of operation
-        Window->ui->StartBtn->setDisabled(false);                                   // Enable the Start button again
+        QTimer::singleShot(1, Window, SLOT(ProcessTotalSize()));
     } else {                                                                        // If no item has been checked:
         Window->ui->TotalSizeLabel->setText("");                                    // "Hide" the size label
         Window->ui->StartBtn->setDisabled(true);                                    // Disable the Start button
     }
 }
+
+// Checks total size while updating GUI
+void MainWindow::ProcessTotalSize(){
+    MainMenu::CheckTotalSize();                                                     // Check total size of operation
+    Window->ui->StartBtn->setDisabled(false);                                       // Enable the Start button again
+}
+
 
 //-----------------------------------------------------------------------------------------------------------
 // FUNCTION CALLS - MAIN MENU
@@ -138,46 +143,55 @@ void MainWindow::UpdateTotalSize(){
 void MainWindow::on_BackupScanSaveBtn_clicked(){        // Backup Saves
     MainMenu::SwitchMode('B', 'S');
     Window->ui->StartBtn->setDisabled(true);
-    MainMenu::BackupScan();
-    Window->ui->StartBtn->setDisabled(false);
-    MainMenu::OrganizeGameList(); MainMenu::LockUnlock();
+    MainMenu::PrepareScan();
+    QTimer::singleShot(1, this, SLOT(ProcessBackup())); // Timer for updating GUI
 }
 
 void MainWindow::on_BackupScanConfigBtn_clicked(){      // Backup Configs
     MainMenu::SwitchMode('B', 'C');
     Window->ui->StartBtn->setDisabled(true);
-    MainMenu::BackupScan();
-    Window->ui->StartBtn->setDisabled(false);
-    MainMenu::OrganizeGameList(); MainMenu::LockUnlock();
+    MainMenu::PrepareScan();
+    QTimer::singleShot(1, this, SLOT(ProcessBackup()));
 }
 
 void MainWindow::on_BackupScanGameBtn_clicked(){        // Backup Games
     MainMenu::SwitchMode('B', 'G');
     Window->ui->StartBtn->setDisabled(true);
-    MainMenu::BackupScan();
-    Window->ui->StartBtn->setDisabled(false);
-    MainMenu::OrganizeGameList(); MainMenu::LockUnlock();
+    MainMenu::PrepareScan();
+    QTimer::singleShot(1, this, SLOT(ProcessBackup()));
 }
 
 void MainWindow::on_RestoreScanSaveBtn_clicked(){       // Restore Saves
     MainMenu::SwitchMode('R', 'S');
     Window->ui->StartBtn->setDisabled(true);
-    MainMenu::RestoreScan();
-    Window->ui->StartBtn->setDisabled(false);
-    MainMenu::OrganizeGameList(); MainMenu::LockUnlock();
+    MainMenu::PrepareScan();
+    QTimer::singleShot(1, this, SLOT(ProcessRestore()));
 }
 
 void MainWindow::on_RestoreScanConfigBtn_clicked(){     // Restore Configs
     MainMenu::SwitchMode('R', 'C');
     Window->ui->StartBtn->setDisabled(true);
-    MainMenu::RestoreScan();
-    Window->ui->StartBtn->setDisabled(false);
-    MainMenu::OrganizeGameList(); MainMenu::LockUnlock();
+    MainMenu::PrepareScan();
+    QTimer::singleShot(1, this, SLOT(ProcessRestore()));
 }
 
 void MainWindow::on_RestoreScanGameBtn_clicked(){       // Restore Games
     MainMenu::SwitchMode('R', 'G');
     Window->ui->StartBtn->setDisabled(true);
+    MainMenu::PrepareScan();
+    QTimer::singleShot(1, this, SLOT(ProcessRestore()));
+}
+
+// Functions that actually start the scanning
+// Backup
+void MainWindow::ProcessBackup(){
+    MainMenu::BackupScan();
+    Window->ui->StartBtn->setDisabled(false);
+    MainMenu::OrganizeGameList(); MainMenu::LockUnlock();
+}
+
+// Restore
+void MainWindow::ProcessRestore(){
     MainMenu::RestoreScan();
     Window->ui->StartBtn->setDisabled(false);
     MainMenu::OrganizeGameList(); MainMenu::LockUnlock();
@@ -209,7 +223,6 @@ void MainWindow::on_StartBtn_clicked(){
         MainMenu::RemoveUnchecked();                                            // Remove unchecked items from list
         ui->MainWidget->setVisible(false);                                      // Hide the main menu
         ui->ProgressWidget->setVisible(true);                                   // Show the progress menu
-        App->processEvents();                                                   // Let the UI settle in
         QThread *thread = new QThread();                                        // Create a new thread
         CopyThread->moveToThread(thread);                                       // Move backup/restore process pointer to new thread
         QObject::connect(thread, SIGNAL(started()), CopyThread, SLOT(Start())); // Connect respective signal and slot

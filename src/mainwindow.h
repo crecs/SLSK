@@ -1,7 +1,6 @@
 /*
 =========================================================================
 ---[SLSK - Main Window/UI (header file)]---
-Copyright (C) 2017 Supremist (aka supremesonicbrazil)
 This file is part of Steam Linux Swiss Knife (or SLSK for short).
 Steam Linux Swiss Knife is available under the GNU GPL v3.0 license. See the
 accompanying COPYING file for more details.
@@ -50,6 +49,9 @@ class MainWindow : public QMainWindow {
         void on_StartBtn_clicked();
         void on_CancelBtn_clicked();
         void on_MenuBtn_clicked();
+        void ProcessBackup();
+        void ProcessRestore();
+        void ProcessTotalSize();
 };
 
 #endif // MAINWINDOW_H

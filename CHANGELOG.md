@@ -1,5 +1,12 @@
 # CHANGELOG
 
+### 2018-01-01 - Core update [v1.1.1]
+* Happy New Year everyone!
+* Backup/restore scanning is now faster (see issue #6)
+* Save/config folder names now don't conflict anymore (each one is within their own "gamename" folder now, like with games themselves,
+but this means you might have to do a backup again for it to work) - NOTE: THIS WASN'T PROPERLY TESTED YET
+* Total size of operation is (for now) shown as approximate
+
 ### 2017-12-29 - Database update
 * 73 games added to the database:
   - (incomplete) 6180 the moon
