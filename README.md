@@ -64,7 +64,7 @@ Check [CONTRIBUTING.md](CONTRIBUTING.md) and [MISSINGLIST.md](MISSINGLIST.md) fo
 
 Before downloading or cloning SLSK, please make sure you have the following dependencies installed:
 
-* `g++` (for C++11)
+* `g++` and `make` (minimum C++11)
 * `qt5-default` and `qt5-qmake` (minimum Qt 5.5+)
 * `sqlite3` (for generating the database)
 
