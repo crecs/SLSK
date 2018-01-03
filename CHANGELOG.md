@@ -1,5 +1,53 @@
 # CHANGELOG
 
+### 2018-01-03 - Database update
+* 45 games added to the database:
+  - (incomplete) Across the Rhine
+  - (incomplete) Airline Tycoon Deluxe
+  - (incomplete) BlazeRush
+  - (incomplete) Command HQ
+  - (incomplete) Daedalus - No Escape
+  - (incomplete) Dark Arcana: The Carnival
+  - (incomplete) Deadlings: Rotten Edition
+  - (incomplete) Deadstone
+  - (incomplete) Ensign-1
+  - (incomplete) Eradicator
+  - (incomplete) F-117A Nighthawk Stealth Fighter 2.0
+  - (incomplete) Fatty Bear's Birthday Surprise
+  - (incomplete) Fleet Defender: The F-14 Tomcat Simulation
+  - (incomplete) Gold Rush! Anniversary
+  - (incomplete) Magnetic By Nature
+  - (incomplete) Merchants of Kaidan
+  - (incomplete) NAM
+  - (incomplete) Pajama Sam: Games to Play on Any Day
+  - (incomplete) Prophour23
+  - (incomplete) QbQbQb
+  - (incomplete) Rise to Ruins
+  - (incomplete) Sign Motion
+  - (incomplete) Silent Service
+  - (incomplete) Silent Service 2
+  - (incomplete) Snow Light
+  - (incomplete) Task Force 1942: Surface Naval Action in the South Pacific
+  - (incomplete) The Forest of Doom
+  - (incomplete) The Shopkeeper
+  - (incomplete) Woah Dave!
+  - A Bird Story
+  - Crowntakers
+  - Double Action: Boogaloo
+  - FOTONICA
+  - Gunspell - Steam Edition
+  - Icewind Dale: Enhanced Edition
+  - Life of Pixel
+  - Majestic Nights
+  - Sid Meier's Civilization: Beyond Earth
+  - Spacebase DF-9
+  - Space Hulk Ascension
+  - Sproggiwood
+  - The Detail
+  - This War of Mine
+  - Winged Sakura: Mindy's Arc
+  - Ziggurat
+
 ### 2018-01-02 - Database update
 * 33 games added to the database:
   - (incomplete) A Golden Wake
