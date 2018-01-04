@@ -1,6 +1,12 @@
 # CHANGELOG
 
 ### 2018-01-03 - Database update
+* 3 games added to the database:
+  - Undertale
+  - Hollow Knight
+  - Owlboy
+
+### 2018-01-03 - Database update
 * 45 games added to the database:
   - (incomplete) Across the Rhine
   - (incomplete) Airline Tycoon Deluxe
