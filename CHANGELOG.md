@@ -1,6 +1,6 @@
 # CHANGELOG
 
-### 2018-01-03 - Database update
+### 2018-01-03 - Database update 2
 * 3 games added to the database:
   - Undertale
   - Hollow Knight
